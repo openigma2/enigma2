@@ -17,7 +17,7 @@ class RcModel:
 
 	def rcIsDefault(self):
 		# Default RC can only happen with DMM type remote controls...
-		return self.model.startswith('dm')
+		return False
 
 	def getRcFile(self, ext):
 		# check for rc/type every time so rctype changes will be noticed
@@ -32,7 +32,7 @@ class RcModel:
 		elif self.model in self.RcModels.keys():
 			remote = self.RcModels[self.model]
 		else:
-			remote = 'dmm'	# default. Assume files for dmm exists
+			remote = 'dmm2'	# default. Assume files for dmm exists
 		f = resolveFilename(SCOPE_SKIN, 'rc_models/' + remote + '.' + ext)
 		if not os.path.exists(f):
 			f = resolveFilename(SCOPE_SKIN, 'rc_models/dmm.' + ext)
