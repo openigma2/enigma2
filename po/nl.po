@@ -357,7 +357,7 @@ msgstr[1] "%s nieuwe pakketten beschikbaar"
 
 #, python-format
 msgid "%s%s(Default: %s)"
-msgstr ""
+msgstr "%s%s(Standaard: %s)"
 
 msgid "'Minimum send interval' needs to be enabled to use this option."
 msgstr "De 'Minimum verzendinterval' moet ingeschakeld zijn om deze optie te gebruiken."
@@ -392,7 +392,7 @@ msgid "(unknown)"
 msgstr "(onbekend)"
 
 msgid "* = Restart Required"
-msgstr ""
+msgstr "* = Herstarten nodig"
 
 msgid "* Only available if more than one interface is active."
 msgstr "* Alleen beschikbaar indien meer dan één interface is geactiveerd."
@@ -410,9 +410,8 @@ msgstr "/s"
 msgid "0"
 msgstr "0"
 
-#, fuzzy
 msgid "0 minutes"
-msgstr "%d minuten"
+msgstr "0 minuten"
 
 msgid "1"
 msgstr "1"
@@ -1096,7 +1095,7 @@ msgstr "Audio PID"
 
 #, python-format
 msgid "Audio PID%s, codec & lang"
-msgstr "Audio PID%s, codec & lang"
+msgstr "Audio PID%s, codec & taal"
 
 msgid "Audio auto volume level"
 msgstr "Automatisch volume"
@@ -1192,9 +1191,8 @@ msgstr "(Auto)installatie is afgerond"
 msgid "Autoinstalling please wait for packages being updated"
 msgstr "Autoinstallatie, wacht totdat alle packages ge-update zijn"
 
-#, fuzzy
 msgid "Automatic Language"
-msgstr "Automatische scan"
+msgstr "Automatische Taalkeuze"
 
 msgid "Automatic Scan"
 msgstr "Automatische scan"
@@ -1327,7 +1325,7 @@ msgid "Belarus"
 msgstr "Belarus"
 
 msgid "Belgian"
-msgstr "Vlaams"
+msgstr "Belgisch"
 
 msgid "Belgium"
 msgstr "België"
@@ -1382,10 +1380,10 @@ msgid "Bookmarks"
 msgstr "Markeerpunten"
 
 msgid "Boost blue"
-msgstr "Blauw"
+msgstr "Versterk Blauw"
 
 msgid "Boost green"
-msgstr "Groen"
+msgstr "Versterk Groen"
 
 msgid "Boot to Android image"
 msgstr "Start op met Android"
@@ -1395,32 +1393,32 @@ msgid "Boot to Recovery image - slot0 %s"
 msgstr "Herstart naar de Recovery-image - slot0 %s"
 
 msgid "Boot to Recovery menu"
-msgstr "Start op met het recovery menu"
+msgstr "Start op met het Recovery menu"
 
 msgid "Bootup time"
 msgstr "Opstarttijd"
 
 msgid "Bosnia and Herzegovina"
-msgstr "Bosnië Herzegovina"
+msgstr "Bosnië en Herzegovina"
 
 msgid "Botswana"
 msgstr "Botswana"
 
 #, fuzzy
 msgid "Bottom"
-msgstr "onder"
+msgstr "Onderkant"
 
 msgid "Bouvet Island"
-msgstr "Bouvet eilanden"
+msgstr "Bouveteiland"
 
 msgid "Brazil"
-msgstr "Brasilië"
+msgstr "Brazilië"
 
 msgid "Brightness"
 msgstr "Helderheid display indien actief"
 
 msgid "British Indian Ocean Territory"
-msgstr "Brits deel Indische oceaan"
+msgstr "Brits Indische Oceaanterritorium"
 
 msgid "Brunei Darussalam"
 msgstr "Brunei Darussalam"
@@ -1984,10 +1982,9 @@ msgstr ""
 "\n"
 "U kunt kiezen tussen 'geen timeout' of van 1 tot 11 sec."
 
-#, fuzzy
 msgid "Configure how long finished events should remain visible in the EPG. Useful when you need information about an event which has just finished, or has been delayed (or for plugins that support catchup)."
 msgstr ""
-"Configureer hoe lang afgelopen programma's zichtbaar moet blijven in de EPG. Dit is vooral handig wanneer u informatie wenst over een programma wat net afgelopen is, of vertraagd is.\n"
+"Configureer hoe lang afgelopen programma's zichtbaar moet blijven in de EPG. Dit is vooral handig wanneer u informatie wenst over een programma wat net afgelopen is, of vertraagd is (of voor plugins die catchup ondersteunen).\n"
 "\n"
 "U kunt kiezen tussen 0-120 min in stappen van 15 min."
 
@@ -2543,10 +2540,10 @@ msgid "Could not record due to invalid service %s"
 msgstr "Kon niet opnemen vanwege een ongeldige service %s"
 
 msgid "Could not retrieve basic bouquets files"
-msgstr ""
+msgstr "Kon de basis boeketten niet ophalen"
 
 msgid "Could not retrieve the remote support files"
-msgstr ""
+msgstr "Kon de bestanden voor ondersteuning op afstand niet ophalen"
 
 msgid "Country"
 msgstr "Land"
@@ -2693,7 +2690,7 @@ msgid "DVB CI Delay"
 msgstr "DVB CI vertraging"
 
 msgid "DVB Subtitles PID & lang"
-msgstr "DVD ondertitels PID & lang"
+msgstr "DVB ondertitels PID & taal"
 
 msgid "DVB driver version: "
 msgstr "DVB driver versie: "
@@ -2916,10 +2913,10 @@ msgid "Descramble sending http streams"
 msgstr "Decodeer verzonden http streams"
 
 msgid "Descramble service via streamrelay port"
-msgstr "Decodeer zender via streamrelay-poort."
+msgstr "Decodeer zender via streamrelay-poort"
 
 msgid "Descramble service via streamrelay url"
-msgstr "Decodeer de zenders via de streamrelay URL."
+msgstr "Decodeer de zenders via de streamrelay URL"
 
 msgid "Description"
 msgstr "Beschrijving"
@@ -3076,7 +3073,7 @@ msgid "Display setup"
 msgstr "Instellingen voor het display"
 
 msgid "Display the virtual keyboard for data entry"
-msgstr ""
+msgstr "Virtuele toetsenbord weergeven voor gegevensinvoer"
 
 msgid "Djibouti"
 msgstr "Djibouti"
@@ -3085,7 +3082,7 @@ msgid "Do a cable service scan now"
 msgstr "Voer nu een provider gerelateerde kabelscan uit."
 
 msgid "Do a fast service scan now"
-msgstr "Voer een provider gerelateerde fastscan uit.\\."
+msgstr "Voer een provider gerelateerde fastscan uit."
 
 msgid "Do a manual service scan now"
 msgstr "Voer een handmatig ingevoerde zenderscan uit."
@@ -3549,7 +3546,7 @@ msgid "End bouquet edit"
 msgstr "Bouquet bewerken stoppen"
 
 msgid "End favourites edit"
-msgstr "Favorieten bewerken stoppen "
+msgstr "Favorieten bewerken stoppen"
 
 msgid "End time"
 msgstr "Eindtijd"
@@ -3594,7 +3591,7 @@ msgid "Enter an URL where alternative images could be listed for FlashImage."
 msgstr "Voer een URL in waar alternatieve afbeeldingen kunnen worden gevonden t.b.v. FlashImage. Voer de tekst 'all' in voor automatische toegang tot een aantal alternatieve images."
 
 msgid "Enter if you are in the east or west hemisphere."
-msgstr "Geef aan of je je in het oostelijk of westelijk halfrond bevindt."
+msgstr "Geef aan of u zich in het oostelijk of westelijk halfrond bevindt."
 
 msgid "Enter if you are north or south of the equator."
 msgstr "Geef aan of u zich noordelijk of zuidelijk van de evenaar bevindt."
@@ -3747,7 +3744,7 @@ msgid "Exceeds dual layer medium!"
 msgstr "Overschrijdt een dual layer schijf"
 
 msgid "Exclude first CA device"
-msgstr ""
+msgstr "Het eerste CA-apparaat uitsluiten"
 
 msgid "Execution finished!!"
 msgstr "Voortgang voltooid!"
@@ -4905,7 +4902,7 @@ msgid "Internet (ntp)"
 msgstr "Internet (ntp)"
 
 msgid "Interval between keys when repeating:"
-msgstr "Tijd tussen toetsherhaling"
+msgstr "Tijd tussen toetsherhaling:"
 
 #, python-format
 msgid "Invalid directory selected: %s"
@@ -4936,7 +4933,7 @@ msgid "Iran, Islamic Republic"
 msgstr "Iran (Islamitische republiek)"
 
 msgid "Iraq"
-msgstr "Iraq"
+msgstr "Irak"
 
 msgid "Ireland"
 msgstr "Ierland"
@@ -4948,10 +4945,10 @@ msgid "Is this video mode ok?"
 msgstr "Is deze videomode correct?"
 
 msgid "Isle of Man"
-msgstr "Ieland Man"
+msgstr "Eiland Man"
 
 msgid "Israel"
-msgstr "Israel"
+msgstr "Israël"
 
 msgid ""
 "It seems you did not see all the eight arrow heads. This means your TV has overscan enabled, and is not configured properly.\n"
@@ -5001,10 +4998,10 @@ msgid "Jump to end of list"
 msgstr "Spring naar het eind van de lijst"
 
 msgid "Jump to first item in list or the start of text"
-msgstr ""
+msgstr "Spring naar het eerste item in de lijst of naar het begin van de tekst"
 
 msgid "Jump to last item in list or the end of text"
-msgstr ""
+msgstr "Spring naar het laatste item in de lijst of naar het einde van de tekst"
 
 msgid "Jump to next marked position"
 msgstr "Spring naar de volgende markering"
@@ -5613,7 +5610,7 @@ msgid "Move up a line"
 msgstr "Gedraaid naar positie op index"
 
 msgid "Move up a screen"
-msgstr ""
+msgstr "Verplaats een scherm omhoog"
 
 msgid "Move west"
 msgstr "Draai west"
@@ -5697,7 +5694,7 @@ msgid "Myanmar"
 msgstr "Myanmar"
 
 msgid "N/A"
-msgstr "0.0 "
+msgstr "N/B"
 
 msgid "NEXT"
 msgstr "VOLGENDE"
@@ -6206,7 +6203,7 @@ msgid "Other Images"
 msgstr "Andere image"
 
 msgid "Other Subtitles & lang"
-msgstr "Andere Ondertitels & lang"
+msgstr "Andere Ondertitels & taal"
 
 msgid "Output"
 msgstr "Uitgang"
@@ -6472,7 +6469,7 @@ msgstr ""
 "Bevestig uw keuze met Ok. "
 
 msgid "Please contact the manufacturer for clarification."
-msgstr ""
+msgstr "Neem ter verduidelijking contact op met de fabrikant."
 
 msgid "Please do not change any values unless you know what you are doing!"
 msgstr "Wijzig hier geen instellingen tenzij u precies weet wat u doet"
@@ -6681,7 +6678,10 @@ msgid "Please wait... Loading list..."
 msgstr "Even geduld... De lijst wordt geladen..."
 
 msgid "Plugin Browser"
-msgstr "Plugins zoekmenu"
+msgstr "Plugins Browser"
+
+msgid "Plugin Browser Style (Need Restart GUI)"
+msgstr "Plugin Browser Stijl (GUI herstarten nodig)"
 
 msgid "Plugin browser"
 msgstr "Plugin browser"
@@ -7034,10 +7034,10 @@ msgid "Python frontend for /tmp/mmi.socket"
 msgstr "Python frontend voor /tmp/mmi.socket"
 
 msgid "Python version: "
-msgstr "Pythonversie:"
+msgstr "Python-versie: "
 
 msgid "Pythonscript"
-msgstr "Pythonscript"
+msgstr "Python-script"
 
 msgid "Qatar"
 msgstr "Qatar"
@@ -8175,7 +8175,7 @@ msgid "Select your time zone area or region."
 msgstr "Selecteer uw tijdzone of regio."
 
 msgid "Select, toggle, process or edit the current entry"
-msgstr ""
+msgstr "Selecteer, schakel, verwerk of bewerk huidige invoer"
 
 msgid "Selecting satellites 1 (USALS)"
 msgstr "Kies satelieten1 (USALS)"
@@ -8240,7 +8240,7 @@ msgid "Service has been added to the favourites."
 msgstr "De zender is toegevoegd aan de favorieten."
 
 msgid "Service has been added to the selected bouquet."
-msgstr "De zender is toegevoegd aan het geselecteerd bouquet."
+msgstr "De zender is toegevoegd aan het geselecteerde bouquet."
 
 msgid "Service info"
 msgstr "Zenderinfo"
@@ -8255,16 +8255,16 @@ msgid "Service info - service & Extended PID Info"
 msgstr "Zenderinfo - service & uitgebreide PID info"
 
 msgid "Service info - service & PIDs"
-msgstr "Service info - service & PIDs"
+msgstr "Zenderinfo - service & PIDs"
 
 msgid "Service info - tuner live values"
-msgstr "Service info - actieve tunerwaardes"
+msgstr "Zenderinfo - actieve tunerwaardes"
 
 msgid "Service info - tuner setting values"
-msgstr "Service info - tuner setting waardes"
+msgstr "Zenderinfo - tuner setting waardes"
 
 msgid "Service info font size"
-msgstr "Fontgrootte van de zenderinfo"
+msgstr "Fontgrootte zenderinfo"
 
 msgid ""
 "Service invalid!\n"
@@ -8277,7 +8277,7 @@ msgid "Service name"
 msgstr "Zendernaam"
 
 msgid "Service name font size"
-msgstr "Fontgrootte van de zendernaam"
+msgstr "Fontgrootte zendernaam"
 
 msgid ""
 "Service not found!\n"
@@ -8287,7 +8287,7 @@ msgstr ""
 "(SID not found in PAT)"
 
 msgid "Service number font size"
-msgstr "Fontgrootte van het zendernummer"
+msgstr "Fontgrootte zendernummering"
 
 msgid "Service reference"
 msgstr "Zenderreferentie"
@@ -8327,7 +8327,7 @@ msgid "Set all hotkey to default?"
 msgstr "Zet alle Hotkey instellingen terug?"
 
 msgid "Set all the settings back as they were"
-msgstr ""
+msgstr "Zet alle instellingen terug naar standaard"
 
 msgid "Set alternative fallback tuners for DVB-T/C or ATSC"
 msgstr "Indien geactiveerd, dan kunt u alternatieve Fallback tuners ingeven t.b.v. DVB-T/C or ATSC ontvangst."
@@ -9535,7 +9535,7 @@ msgid "TXT PID"
 msgstr "TXT PID"
 
 msgid "TXT Subtitles page & lang"
-msgstr "TXT Ondertitels page & lang"
+msgstr "TXT Ondertitels pagina & taal"
 
 msgid "Table of contents for collection"
 msgstr "Inhoudsoverzicht voor de verzameling"
@@ -10243,7 +10243,7 @@ msgstr "Tonga"
 
 #, fuzzy
 msgid "Top"
-msgstr "Twee"
+msgstr "Bovenkant"
 
 msgid "Top and bottom"
 msgstr "Boven en onderzijde"
@@ -10355,6 +10355,12 @@ msgstr "Turksmenistan"
 
 msgid "Turks and Caicos Islands"
 msgstr "Turks- en Caicoseilanden"
+
+msgid "Turn off HDMI-IN mode"
+msgstr "HDMI-IN-modus uitschakelen"
+
+msgid "Turn on HDMI-IN mode"
+msgstr "HDMI-IN-modus inschakelen"
 
 msgid "Turn on the power LED during deep standby."
 msgstr "Met deze optie bepaalt u of de power led brandt als de ontvanger in deep stand-by staat."
@@ -10637,16 +10643,16 @@ msgid "Use official channel numbering"
 msgstr "Gebruik de officiële kanaalvolgorde"
 
 msgid "Use original DVB subtitle position"
-msgstr "Oorspronkelijke positie"
+msgstr "Originele DVB-ondertitelpositie gebruiken"
 
 msgid "Use original teletext position"
 msgstr "Originele teletextpositie gebruiken"
 
 msgid "Use power measurement"
-msgstr "Meet stroomopname"
+msgstr "Gebruik vermogensmeting"
 
 msgid "Use skin default"
-msgstr "Gebruik conform de skin"
+msgstr "Gebruik default skin"
 
 #, fuzzy
 msgid "Use the alternative screen"
@@ -11920,7 +11926,7 @@ msgid "day"
 msgstr "dag"
 
 msgid "days"
-msgstr ""
+msgstr "dagen"
 
 msgid "default"
 msgstr "standaard"
@@ -12126,13 +12132,11 @@ msgstr "hoog"
 msgid "horizontal"
 msgstr "horizontaal"
 
-#, fuzzy
 msgid "hour"
-msgstr "%d uur"
+msgstr "uur"
 
-#, fuzzy
 msgid "hours"
-msgstr "%d uur"
+msgstr "uren"
 
 msgid "in menu and plugins"
 msgstr "In zowel menu als plugins"
@@ -12241,14 +12245,6 @@ msgstr "min"
 
 msgid "mins"
 msgstr "min"
-
-#, fuzzy
-msgid "minute"
-msgstr "%d minuut"
-
-#, fuzzy
-msgid "minutes"
-msgstr "%d minuten"
 
 msgid "module disabled"
 msgstr "module uitgeschakeld"
@@ -12401,7 +12397,7 @@ msgid "original"
 msgstr "Origineel"
 
 msgid "pass"
-msgstr "passage"
+msgstr "overslaan"
 
 msgid "pausing"
 msgstr "gepauseerd"
@@ -12739,16 +12735,14 @@ msgstr "ingepland"
 msgid "water sport"
 msgstr "Watersport"
 
-#, fuzzy
 msgid "week"
-msgstr "wekelijks"
+msgstr "week"
 
 msgid "weekly"
 msgstr "wekelijks"
 
-#, fuzzy
 msgid "weeks"
-msgstr "wekelijks"
+msgstr "weken"
 
 msgid "west"
 msgstr "west"
@@ -12802,10 +12796,10 @@ msgid "yes"
 msgstr "Ja"
 
 msgid "yes (keep feeds)"
-msgstr "ja (bewaar feeds)"
+msgstr "Ja (bewaar feeds)"
 
 msgid "yes, but not in multi selections"
-msgstr "ja, maar niet in de meervoudige selectie"
+msgstr "Ja, maar niet in de meervoudige selectie"
 
 msgid "zap"
 msgstr "Zap naar zender X"

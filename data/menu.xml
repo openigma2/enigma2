@@ -49,6 +49,7 @@
 					<item key="language_setup" level="0" text="Language"><screen module="LanguageSelection"/></item>
 					<item key="timezone_setup" level="0" text="Timezone"><setup id="timezone"/></item>
 					<item key="user_interface" level="0" text="User interface"><setup id="userinterface"/></item>
+					<item key="channelselection_setup" level="0" text="Channel Selection"><setup id="channelselection"/></item>
 					<item key="primary_skin_selector" level="0" text="GUI Skin"><screen module="SkinSelector" screen="SkinSelector"/></item>
 					<item key="display_skin_selector" level="0" requires="FrontpanelDisplay" text="Display Skin"><screen module="SkinSelector" screen="LcdSkinSelector"/></item>
 				</menu>
@@ -93,5 +94,6 @@
 			<item key="multiboot" text="Multiboot image selector" requires="canMultiBoot"><screen module="FlashImage" screen="MultibootSelection">1</screen></item>
 			<item key="deep_standby" text="Deep standby" requires="DeepstandbySupport"><screen module="Standby" screen="TryQuitMainloop">1</screen></item>
 			<item key="deep_standby" text="Shutdown" requires="!DeepstandbySupport"><screen module="Standby" screen="TryQuitMainloop">1</screen></item>
+			<item key="maintenance_mode" level="0" text="Recovery Mode" weight="55" requires="RecoveryMode"><screen module="Standby" screen="TryQuitMainloop">16</screen></item>
 		</menu>
 </menu>

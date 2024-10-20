@@ -166,7 +166,6 @@ class EventInfo(PerServiceBase, Source):
 			self.__service = ref
 			self.changed((self.CHANGED_ALL,))
 
-
 	def destroy(self):
 		PerServiceBase.destroy(self)
 		Source.destroy(self)

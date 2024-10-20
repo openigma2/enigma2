@@ -15,6 +15,10 @@ dist_install_DATA = \
 	LiberationSans-BoldItalic.ttf \
 	LiberationSans-Italic.ttf \
 	LiberationSans-Regular.ttf \
+	Roboto-Black.ttf \
+	Roboto-BlackItalic.ttf \
+	Roboto-Bold.ttf \
+	Roboto-BoldItalic.ttf \
 	wqy-microhei.ttc
 
 install-data-hook:

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-10-19 15:02+0200\n"
+"POT-Creation-Date: 2024-08-01 15:48+0200\n"
 "PO-Revision-Date: 2024-04-10 19:08+0300\n"
 "Last-Translator: Dimitrij <Dima-73@inbox.lv>\n"
 "Language-Team: openPLi Dimitrij\n"
@@ -421,9 +421,6 @@ msgstr "/с"
 
 msgid "0"
 msgstr "0"
-
-msgid "0 minutes"
-msgstr "0 минут"
 
 msgid "1"
 msgstr "1"
@@ -1416,10 +1413,6 @@ msgstr "Bosnia and Herzegovina"
 msgid "Botswana"
 msgstr "Botswana"
 
-#, fuzzy
-msgid "Bottom"
-msgstr "снизу"
-
 msgid "Bouvet Island"
 msgstr "Bouvet Island"
 
@@ -2371,12 +2364,6 @@ msgstr "Запись невозможна из-за конфликтного т�
 #, python-format
 msgid "Could not record due to invalid service %s"
 msgstr "Запись невозможна - недействительный сервис %s"
-
-msgid "Could not retrieve basic bouquets files"
-msgstr ""
-
-msgid "Could not retrieve the remote support files"
-msgstr ""
 
 msgid "Country"
 msgstr "Страна"
@@ -9926,10 +9913,6 @@ msgstr "Тоновый импульс (Tone Burst) A/B"
 msgid "Tonga"
 msgstr "Tonga"
 
-#, fuzzy
-msgid "Top"
-msgstr "Два"
-
 msgid "Top and bottom"
 msgstr "Сверху и снизу"
 
@@ -11543,9 +11526,6 @@ msgstr "ежедневно"
 msgid "day"
 msgstr "день"
 
-msgid "days"
-msgstr "дней"
-
 msgid "default"
 msgstr "по умолчанию"
 
@@ -11750,12 +11730,6 @@ msgstr "широкий"
 msgid "horizontal"
 msgstr "горизонтальная"
 
-msgid "hour"
-msgstr "час"
-
-msgid "hours"
-msgstr "часов"
-
 msgid "in menu and plugins"
 msgstr "меню и плагины"
 
@@ -11863,12 +11837,6 @@ msgstr "мин"
 
 msgid "mins"
 msgstr "мин"
-
-msgid "minute"
-msgstr "минута"
-
-msgid "minutes"
-msgstr "минут"
 
 msgid "module disabled"
 msgstr "модуль отключен"
@@ -12358,14 +12326,8 @@ msgstr "ожидание"
 msgid "water sport"
 msgstr "водный спорт"
 
-msgid "week"
-msgstr "неделя"
-
 msgid "weekly"
 msgstr "еженедельно"
-
-msgid "weeks"
-msgstr "недель"
 
 msgid "west"
 msgstr "запад"
@@ -12442,3 +12404,27 @@ msgstr "°E"
 
 msgid "°W"
 msgstr "°W"
+
+msgid "days"
+msgstr "дней"
+
+msgid "hours"
+msgstr "часов"
+
+msgid "minutes"
+msgstr "минут"
+
+msgid "week"
+msgstr "неделя"
+
+msgid "weeks"
+msgstr "недель"
+
+msgid "hour"
+msgstr "час"
+
+msgid "minute"
+msgstr "минута"
+
+msgid "0 minutes"
+msgstr "0 минут"

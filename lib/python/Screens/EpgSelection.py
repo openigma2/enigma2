@@ -49,7 +49,7 @@ class EPGSelection(Screen):
 		if isinstance(service, str) and eventid is not None:
 			self.type = EPG_TYPE_SIMILAR
 			self.setTitle(_("Similar EPG"))
-			self["key_yellow"] = StaticText(_("Partial"))
+			self["key_yellow"] = StaticText()
 			self["key_blue"] = StaticText()
 			self.currentService = service
 			self.eventid = eventid
@@ -286,12 +286,6 @@ class EPGSelection(Screen):
 				self.sort_type = 0
 			self["list"].sortSingleEPG(self.sort_type)
 			self.setSortDescription()
-		elif self.type == EPG_TYPE_SIMILAR:
-			cur = self["list"].getCurrent()
-			cur_event = cur and cur[0]
-			event = cur_event and cur_event.getEventName()
-			if event:
-				self.session.open(EPGSelection, None, None, event)
 
 	def setSortDescription(self):
 		if self.sort_type == 1:

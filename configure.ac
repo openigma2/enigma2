@@ -63,6 +63,10 @@ if test `echo "$BOXTYPE" | cut -b 1-2` == "dm"; then
 	AC_DEFINE(KEY_PLAY_ACTUALLY_IS_KEY_PLAYPAUSE, 1,[define when rc sends a KEY_PLAY event for its KEY_PLAYPAUSE key])
 fi
 
+if test "$BOXTYPE" == "dm7080" -o "$BOXTYPE" == "dm820" -o "$BOXTYPE" == "dm800se" -o "$BOXTYPE" == "dm800sev2" -o "$BOXTYPE" == "dm7020hd" -o "$BOXTYPE" == "dm7020hdv2" -o "$BOXTYPE" == "dm900" -o "$BOXTYPE" == "dm920"; then
+	AC_DEFINE(DREAMBOX_DUAL_TUNER, 1,[define BOXTYPE DM7080])
+fi
+
 AC_ARG_WITH(textlcd,
 	AC_HELP_STRING([--with-textlcd], [use ascii based lcd, yes or no]),
 	[[withtextlcd=$withval]],
@@ -256,8 +260,8 @@ CXXFLAGS="$CXXFLAGS -Wall -Wextra -Werror \
 	-Wstringop-overflow=3 -Woverlength-strings \
 	-Wunsafe-loop-optimizations -Wpointer-arith \
 	-Wfloat-equal -Wlogical-op \
-	-Wno-error=cast-align=strict -Wno-error=ignored-qualifiers \
-	-Wno-error=cast-function-type \
+	-Wno-error=cast-align=strict -Wno-error=ignored-qualifiers -Wno-error=maybe-uninitialized \
+	-Wno-error=cast-function-type -Wno-error=deprecated-declarations -Wno-error=overloaded-virtual \
 	-Wno-error=stringop-truncation -Wno-error=shadow -Wno-error=cast-qual \
 	-Wno-error=aggregate-return -Wno-error=missing-field-initializers \
 	-Wno-error=packed -Wno-error=vla -Wno-error=clobbered -Wno-error=unused-parameter \
@@ -274,6 +278,7 @@ data/Makefile
 data/fonts/Makefile
 data/countries/Makefile
 data/display/Makefile
+data/display/skin_default/Makefile
 data/extensions/Makefile
 data/keymaps/Makefile
 data/hw_info/Makefile

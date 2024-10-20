@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-10-19 15:02+0200\n"
+"POT-Creation-Date: 2024-08-01 15:48+0200\n"
 "PO-Revision-Date: 2021-03-06\n"
 "Last-Translator: LinuxSTV\n"
 "Language-Team: \n"
@@ -416,10 +416,6 @@ msgstr "/d"
 
 msgid "0"
 msgstr "0"
-
-#, fuzzy
-msgid "0 minutes"
-msgstr "%d menit"
 
 msgid "1"
 msgstr "1"
@@ -1445,10 +1441,6 @@ msgstr "Bosnia"
 msgid "Botswana"
 msgstr "Boswana"
 
-#, fuzzy
-msgid "Bottom"
-msgstr "bawah"
-
 msgid "Bouvet Island"
 msgstr "Pulau Buvet"
 
@@ -2033,8 +2025,7 @@ msgstr "Atur netmask."
 msgid "Configure for how long the infobar will remain visible after activation."
 msgstr "Atur berapa lama infobar tetap muncul setelah diaktifkan."
 
-#, fuzzy
-msgid "Configure how long finished events should remain visible in the EPG. Useful when you need information about an event which has just finished, or has been delayed (or for plugins that support catchup)."
+msgid "Configure for how many minutes finished events should remain visible in the EPG. Useful when you need information about an event which has just finished, or has been delayed."
 msgstr "Atur berapa menit acara yg sudah usai tetap bisa tampil pada EPG. Berguna ketika anda memerlukan info tentang suatu acara yang baru saja selesai, atau ditunda."
 
 msgid "Configure how many channels are shown in the selection list."
@@ -2442,12 +2433,6 @@ msgstr "Tidak bisa merekam karena pewaktu bentrok %s"
 #, python-format
 msgid "Could not record due to invalid service %s"
 msgstr "Tidak bisa merekam karena layanan tidak valid %s"
-
-msgid "Could not retrieve basic bouquets files"
-msgstr ""
-
-msgid "Could not retrieve the remote support files"
-msgstr ""
 
 #, fuzzy
 msgid "Country"
@@ -10318,10 +10303,6 @@ msgstr "Toneburst A/B"
 msgid "Tonga"
 msgstr "Tonga"
 
-#, fuzzy
-msgid "Top"
-msgstr "Dua"
-
 msgid "Top and bottom"
 msgstr "Atas dan bawah"
 
@@ -12002,9 +11983,6 @@ msgstr "harian"
 msgid "day"
 msgstr "hari"
 
-msgid "days"
-msgstr ""
-
 msgid "default"
 msgstr "bawaan"
 
@@ -12215,14 +12193,6 @@ msgid "horizontal"
 msgstr "horizontal"
 
 #, fuzzy
-msgid "hour"
-msgstr "%d jam"
-
-#, fuzzy
-msgid "hours"
-msgstr "%d jam"
-
-#, fuzzy
 msgid "in menu and plugins"
 msgstr "Unduh plugin"
 
@@ -12336,14 +12306,6 @@ msgstr "%d mnt"
 
 msgid "mins"
 msgstr "mnt"
-
-#, fuzzy
-msgid "minute"
-msgstr "%d menit"
-
-#, fuzzy
-msgid "minutes"
-msgstr "%d menit"
 
 #, fuzzy
 msgid "module disabled"
@@ -12855,15 +12817,7 @@ msgstr "menunggu"
 msgid "water sport"
 msgstr "olahraga air"
 
-#, fuzzy
-msgid "week"
-msgstr "per pekan"
-
 msgid "weekly"
-msgstr "per pekan"
-
-#, fuzzy
-msgid "weeks"
 msgstr "per pekan"
 
 msgid "west"
