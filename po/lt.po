@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PLi enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-10-19 15:02+0200\n"
+"POT-Creation-Date: 2024-08-01 15:48+0200\n"
 "PO-Revision-Date: 2022-10-23 15:37+0300\n"
 "Last-Translator: Audronis <adga45@gmail.com>\n"
 "Language-Team: Adga (C) <adga45@gmail.com>\n"
@@ -423,10 +423,6 @@ msgstr "/s"
 
 msgid "0"
 msgstr "0"
-
-#, fuzzy
-msgid "0 minutes"
-msgstr "%d minutės"
 
 msgid "1"
 msgstr "1"
@@ -1419,10 +1415,6 @@ msgstr "Bosnija ir Hercogovina"
 msgid "Botswana"
 msgstr "Botsvana"
 
-#, fuzzy
-msgid "Bottom"
-msgstr "apačia"
-
 msgid "Bouvet Island"
 msgstr "Buveto sala"
 
@@ -1980,8 +1972,7 @@ msgstr "Konfigūruoti numatytąjį tipą naujiems laikmačiams."
 msgid "Configure for how long the infobar will remain visible after activation."
 msgstr "Nustatykite, kiek laiko ekrane išliks matoma info juosta."
 
-#, fuzzy
-msgid "Configure how long finished events should remain visible in the EPG. Useful when you need information about an event which has just finished, or has been delayed (or for plugins that support catchup)."
+msgid "Configure for how many minutes finished events should remain visible in the EPG. Useful when you need information about an event which has just finished, or has been delayed."
 msgstr "Nustatykite, kiek minučių pasibaigę įvykiai išliks matomi EPG sąraše. Naudinga, kai prireikia informacijos apie ką tik pasibaigusį, ar ilgiau užtrukusį įvykį."
 
 msgid "Configure how many channels are shown in the selection list."
@@ -2386,12 +2377,6 @@ msgstr "Nepavyko įrašyti dėl konfliktų laikmatyje %s"
 #, python-format
 msgid "Could not record due to invalid service %s"
 msgstr "Nepavyko įrašyti dėl neveikiančių kanalų %s"
-
-msgid "Could not retrieve basic bouquets files"
-msgstr ""
-
-msgid "Could not retrieve the remote support files"
-msgstr ""
 
 msgid "Country"
 msgstr "Šalis"
@@ -9994,10 +9979,6 @@ msgstr "Tono signalas A/B"
 msgid "Tonga"
 msgstr "Tongų"
 
-#, fuzzy
-msgid "Top"
-msgstr "Du"
-
 msgid "Top and bottom"
 msgstr "Viršuje ir apačioje"
 
@@ -11624,9 +11605,6 @@ msgstr "kasdien"
 msgid "day"
 msgstr "diena"
 
-msgid "days"
-msgstr ""
-
 msgid "default"
 msgstr "numatytasis"
 
@@ -11832,14 +11810,6 @@ msgstr ""
 msgid "horizontal"
 msgstr "horizontali"
 
-#, fuzzy
-msgid "hour"
-msgstr "%d valanda"
-
-#, fuzzy
-msgid "hours"
-msgstr "%d valanda"
-
 msgid "in menu and plugins"
 msgstr "meniu ir prieduose"
 
@@ -11948,14 +11918,6 @@ msgstr " min"
 
 msgid "mins"
 msgstr "min"
-
-#, fuzzy
-msgid "minute"
-msgstr "%d minutė"
-
-#, fuzzy
-msgid "minutes"
-msgstr "%d minutės"
 
 msgid "module disabled"
 msgstr "modulis išjungtas"
@@ -12445,15 +12407,7 @@ msgstr "laukiama"
 msgid "water sport"
 msgstr "vandens sportas"
 
-#, fuzzy
-msgid "week"
-msgstr "kas savaitę"
-
 msgid "weekly"
-msgstr "kas savaitę"
-
-#, fuzzy
-msgid "weeks"
 msgstr "kas savaitę"
 
 msgid "west"
