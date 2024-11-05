@@ -1305,8 +1305,7 @@ class MovieSelection(Screen, HelpableScreen, SelectionEventInfo, InfoBarBase, Pr
 				"description": config.movielist.description.value,
 				"movieoff": config.usage.on_movie_eof.value})
 			self.saveLocalSettings()
-			self._updateButtonTexts()
-			self.reloadList()
+			self.close(True)
 
 	def can_sortby(self, item):
 		return True
