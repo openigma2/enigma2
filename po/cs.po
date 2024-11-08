@@ -89,9 +89,8 @@ msgstr " (TV)"
 msgid " (auto detection)"
 msgstr " (automatická detekce)"
 
-#, fuzzy
 msgid " (circular LNB)"
-msgstr "Použít kruhový LNB"
+msgstr " (circular LNB)"
 
 #
 msgid " (disabled)"
@@ -301,12 +300,12 @@ msgstr[1] "%d podadresáře"
 msgstr[2] "%d podadresářů"
 
 #
-#, fuzzy, python-format
+#, python-format
 msgid "%d week"
 msgid_plural "%d weeks"
-msgstr[0] "týden"
-msgstr[1] "týden"
-msgstr[2] "týden"
+msgstr[0] "%d týden"
+msgstr[1] "%d týdny"
+msgstr[2] "%d týdnů"
 
 #
 #, python-format
@@ -2059,7 +2058,7 @@ msgid "Christmas Island"
 msgstr "Vánoční ostrov"
 
 msgid "Circular LNB"
-msgstr "Kruhový LNB"
+msgstr "Circular LNB"
 
 #
 msgid "Circular left"
@@ -4432,7 +4431,7 @@ msgid "Finetune"
 msgstr "Jemné ladění"
 
 msgid "Finetune the auto DiSEqC order to in your situation the satellites could be found faster."
-msgstr ""
+msgstr "Zvolte nastavení pro autoDiSEqC, aby byly satelity ve vašem případě nalezeny rychleji."
 
 #
 msgid "Finished"
@@ -9292,7 +9291,7 @@ msgid "Set as startup service"
 msgstr "Nastavit jako program po spuštění"
 
 msgid "Set auto DiSEqC search order"
-msgstr ""
+msgstr "Nastavení pořadí vyhledávání pro autoDiSEqC"
 
 msgid "Set blocktimes by weekday"
 msgstr "Nastavit časy blokování podle dnů"
@@ -10618,7 +10617,7 @@ msgstr ""
 "Pro případné korekce můžete kontaktovat autora\n"
 "na výše uvedené adrese.\n"
 "\n"
-"®23.10.2024"
+"®8.11.2024"
 
 #
 msgid "TS file is too large for ISO9660 level 1!"
@@ -11818,7 +11817,7 @@ msgid "Use as PiP if possible"
 msgstr "Použít jako PiP"
 
 msgid "Use circular LNB"
-msgstr "Použít kruhový LNB"
+msgstr "Použít circular LNB"
 
 msgid "Use fastscan channel names"
 msgstr "Použít fastscan jména kanálů"
