@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenPLi enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-10-19 15:02+0200\n"
+"POT-Creation-Date: 2024-11-08 13:16+0100\n"
 "PO-Revision-Date: \n"
 "Last-Translator: IMS <ims@openpli.org>\n"
 "Language-Team: PLi <ims@openpli.org>\n"
@@ -88,6 +88,10 @@ msgstr " (TV)"
 #
 msgid " (auto detection)"
 msgstr " (automatická detekce)"
+
+#, fuzzy
+msgid " (circular LNB)"
+msgstr "Použít kruhový LNB"
 
 #
 msgid " (disabled)"
@@ -295,6 +299,14 @@ msgid_plural "%d subdirectories"
 msgstr[0] "%d podadresář"
 msgstr[1] "%d podadresáře"
 msgstr[2] "%d podadresářů"
+
+#
+#, fuzzy, python-format
+msgid "%d week"
+msgid_plural "%d weeks"
+msgstr[0] "týden"
+msgstr[1] "týden"
+msgstr[2] "týden"
 
 #
 #, python-format
@@ -4419,6 +4431,9 @@ msgstr "Jemné natáčení"
 msgid "Finetune"
 msgstr "Jemné ladění"
 
+msgid "Finetune the auto DiSEqC order to in your situation the satellites could be found faster."
+msgstr ""
+
 #
 msgid "Finished"
 msgstr "Dokončeno"
@@ -5559,6 +5574,9 @@ msgstr "LAN připojení"
 #
 msgid "LNB"
 msgstr "LNB"
+
+msgid "LOSTLOCK"
+msgstr ""
 
 #
 msgid "Language"
@@ -9272,6 +9290,9 @@ msgstr "Nastavení záložních tunerů pro DVB-T/C nebo ATSC"
 
 msgid "Set as startup service"
 msgstr "Nastavit jako program po spuštění"
+
+msgid "Set auto DiSEqC search order"
+msgstr ""
 
 msgid "Set blocktimes by weekday"
 msgstr "Nastavit časy blokování podle dnů"
@@ -13177,9 +13198,6 @@ msgstr "Denně"
 msgid "day"
 msgstr "den"
 
-msgid "days"
-msgstr "dny"
-
 #
 msgid "default"
 msgstr "Výchozí"
@@ -13415,12 +13433,6 @@ msgstr "vysoký"
 msgid "horizontal"
 msgstr "Horizontální"
 
-msgid "hour"
-msgstr "hodina"
-
-msgid "hours"
-msgstr "hodiny"
-
 msgid "in menu and plugins"
 msgstr "V menu a pluginech"
 
@@ -13545,12 +13557,6 @@ msgstr " min"
 
 #
 msgid "mins"
-msgstr "minut"
-
-msgid "minute"
-msgstr "minuta"
-
-msgid "minutes"
 msgstr "minut"
 
 #
@@ -14126,16 +14132,8 @@ msgid "water sport"
 msgstr "vodní sporty"
 
 #
-msgid "week"
-msgstr "týden"
-
-#
 msgid "weekly"
 msgstr "Týdně"
-
-#
-msgid "weeks"
-msgstr "týdny"
 
 msgid "west"
 msgstr "západ"
