@@ -87,7 +87,7 @@ def getHardwareTypeString():
 
 
 def getImageTypeString():
-	if BoxInfo.getItem("imagetype"):
+	if BoxInfo.getItem("imagetype") != "rev":
 		return "%s %s %s" % (BoxInfo.getItem("displaydistro"), BoxInfo.getItem("imagetype").title(), BoxInfo.getItem("imageversion"))
 	return "%s %s" % (BoxInfo.getItem("displaydistro"), BoxInfo.getItem("imageversion").title())
 

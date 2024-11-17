@@ -50,7 +50,7 @@ def getSlotImageInfo(slot, imagedir="/"):
 	if os.path.isfile(os.path.join(imagedir, "usr/lib/enigma.info")):
 		print("[multiboot] [GetImagelist] using enigma.info")
 		BoxInfoInstance = BoxInformation(root=imagedir) if getCurrentImage() != slot else BoxInfo
-		Creator = BoxInfoInstance.getItem("distro", "").capitalize()
+		Creator = BoxInfoInstance.getItem("displaydistro", "")
 		BuildImgVersion = BoxInfoInstance.getItem("imgversion")
 		BuildType = BoxInfoInstance.getItem("imagetype", "")[0:3]
 		BuildVer = BoxInfoInstance.getItem("imagebuild")
