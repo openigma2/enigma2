@@ -49,7 +49,7 @@ def getUpdateDateString():
 
 def getEnigmaVersionString():
 	import enigma
-	enigma_version = enigma.getEnigmaVersionString().title()
+	enigma_version = enigma.getEnigmaVersionString()
 	if '-(no branch)' in enigma_version:
 		enigma_version = enigma_version[:-12]
 	enigma_version = enigma_version.rsplit("-", enigma_version.count("-") - 2)
