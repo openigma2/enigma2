@@ -21,6 +21,7 @@
 #include <fstream>
 #include <stdexcept>
 #include <exception>
+#include <regex>
 
 /*
  * Copyright (C) 2017 Marcus Metzler <mocm@metzlerbros.de>
