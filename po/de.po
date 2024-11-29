@@ -8616,7 +8616,7 @@ msgid "Skip internet connection check (disables automatic package installation)"
 msgstr "Überspringe Internet-Verbindungstest (automatische Paketinstallation deaktivieren)"
 
 msgid "Skip jumping to live TV while timeshifting with plugins"
-msgstr "Überspringen Sie das Springen zum Live-TV, während  mit Plugins timehift aktiviert sind"
+msgstr "Nicht zum Live-TV springen während Timeshift mit Plugins aktiv ist"
 
 msgid "Sleep timer"
 msgstr "Ausschalt-Timer"
