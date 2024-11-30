@@ -6135,10 +6135,10 @@ msgid "Parental control setup"
 msgstr "Jugendschutz-Einstellungen"
 
 msgid "Partial"
-msgstr "Partial"
+msgstr "Ähnlich"
 
 msgid "Partial EPG"
-msgstr "Partial-EPG"
+msgstr "Ähnliche Sendungen"
 
 msgid "Passthrough"
 msgstr "Passthrough"
