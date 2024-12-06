@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: enigma2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-11-08 13:16+0100\n"
-"PO-Revision-Date: 2023-06-19 13:16+0200\n"
+"PO-Revision-Date: 2024-12-06 17:39+0100\n"
 "Last-Translator: kueken\n"
 "Language-Team: OpenPLi\n"
 "Language: de\n"
@@ -1802,10 +1802,10 @@ msgid "Choose whether multi channel aac+ sound tracks should be downmixed to ste
 msgstr "Wählen sie aus wie AAC+ Sound transkodiert werden soll."
 
 msgid "Choose whether to scan a single transponder, one satellite or multiple satellites."
-msgstr "Wähle aus  ob du einen einzelnen Transponder , Satellit oder mehrere  Satelliten scannen willst."
+msgstr "Sendersuche auf einem Transponder, einem Satelliten oder mehreren Satelliten."
 
 msgid "Choose whether to scan for free services only or whether to include paid/encrypted services too."
-msgstr "Sendersuche nur freie Sender oder auch Pay-TV."
+msgstr "Sendersuche nur nur nach frei empfangbaren Sendern oder auch nach verschlüsselten Sendern."
 
 msgid "Choose which tuner to configure."
 msgstr "Wählen Sie den Tuner aus."
@@ -5099,10 +5099,10 @@ msgid "Longitude"
 msgstr "Längengrad"
 
 msgid "Looking for active transponders in the cable network. Please wait..."
-msgstr "Suche benutzte Transponder im Kabel Netzwerk. Bitte warten…"
+msgstr "Suche nach aktiven Transpondern im Kabelnetz läuft. Bitte warten…"
 
 msgid "Looking for active transponders in the terrestrial network. Please wait..."
-msgstr "Suche benutzte Transponder im terrestrischen Netzwerk. Bitte warten…"
+msgstr "Suche nach aktiven terrestrischen Transpondern läuft. Bitte warten…"
 
 msgid "Loop through from"
 msgstr "Verbunden mit"
@@ -5509,7 +5509,7 @@ msgid "Multisat"
 msgstr "Multisat"
 
 msgid "Multisat all select"
-msgstr "Multisat alle auswählen"
+msgstr "Multisat (alle Satelliten vorausgewählt)"
 
 msgid "Multistream"
 msgstr "Multistream"
@@ -5874,7 +5874,7 @@ msgstr ""
 "Bitte den Tuner vor der Suche einstellen."
 
 msgid "Nothing to scan! Setup your tuner and try again."
-msgstr "Nichts zu scannen! Richten Sie Ihren Tuner ein und versuchen Sie es erneut."
+msgstr "Nichts zu suchen! Richten Sie Ihren Tuner ein und versuchen Sie es erneut."
 
 msgid "Now"
 msgstr "Jetzt"
@@ -6577,7 +6577,7 @@ msgid "PowerMenu"
 msgstr "Power Menü"
 
 msgid "Predefined transponder"
-msgstr "Vordefinierte Transponder"
+msgstr "Vordefinierter Transponder"
 
 msgid "Prefer AC3 track"
 msgstr "Bevorzuge AC3"
@@ -7091,10 +7091,10 @@ msgid "Remove selected satellite"
 msgstr "Entferne gewählten Satellit"
 
 msgid "Remove terrestrial services"
-msgstr "Terrestrische-Dienste entfernen"
+msgstr "Terrestrische Sender entfernen"
 
 msgid "Remove the services on scanned transponders before re-adding services?"
-msgstr "Beende den aktiven Transponder bevor du neu scanst"
+msgstr "Alle Sender vom gewählten Transponder/Satelliten vor der Suche löschen?"
 
 msgid "Remove this logfile"
 msgstr "Diese Log-Datei entfernen"
@@ -7431,7 +7431,7 @@ msgid "Saturday"
 msgstr "Samstag"
 
 msgid "Saudi Arabia"
-msgstr "Saudi Arabia"
+msgstr "Saudi-Arabien"
 
 msgid "Save"
 msgstr "Speichern"
@@ -7535,7 +7535,7 @@ msgid "Scan state"
 msgstr "Scan-Status"
 
 msgid "Scan using transponders on NIT table? 'No' will use transponders in xml file."
-msgstr "Mit Transpondern auf NIT-Tabelle scannen? „Nein“ verwendet Transponder in der XML-Datei."
+msgstr "Suche nach Transpondern in der NIT-Tabelle des Satelliten? „Nein“ verwendet stattdessen die Transponder in der XML-Datei."
 
 msgid "Scan wireless networks"
 msgstr "WLAN-Netzwerke suchen"
@@ -7582,7 +7582,7 @@ msgid "Search west"
 msgstr "Westlich suchen"
 
 msgid "Searching"
-msgstr "Durchsuche"
+msgstr "Suche läuft"
 
 msgid "Searching east..."
 msgstr "Suche östlich…"
@@ -7932,7 +7932,7 @@ msgid "Select whether your SCR device is externally powered."
 msgstr "Bitte wählen sie aus ob ihr SCR Gerät extern mit Strom gespeist wird."
 
 msgid "Select which satellite to scan."
-msgstr "Wähle Satelliten zum scannen"
+msgstr "Wählen Sie einen Satelliten zum scannen."
 
 msgid "Select which transponder to scan."
 msgstr "Wählen Sie einen Transponder zum scannen."
@@ -8227,7 +8227,7 @@ msgid "Setup your satellite equipment"
 msgstr "Satelliten-Ausrüstung"
 
 msgid "Seychelles"
-msgstr "Seychelles"
+msgstr "Seychellen"
 
 msgid "Sharpness"
 msgstr "Schärfe"
@@ -8578,7 +8578,7 @@ msgid "Single EPG"
 msgstr "Einfach-EPG"
 
 msgid "Single satellite"
-msgstr "Einzelnen Satelliten"
+msgstr "Einzelner Satellit"
 
 msgid "Single step (GOP)"
 msgstr "Einzelschritt (GOP)"
@@ -9184,7 +9184,7 @@ msgid "Swaziland"
 msgstr "Swaziland"
 
 msgid "Sweden"
-msgstr "Sweden"
+msgstr "Schweden"
 
 msgid "Swedish"
 msgstr "Schwedisch"
@@ -9335,7 +9335,7 @@ msgid "Tajikistan"
 msgstr "Tadschikistan"
 
 msgid "Tanzania, United Republic of"
-msgstr "Tansania, Vereinigte Republik"
+msgstr "Tansania"
 
 msgid "Teletext subtitle color"
 msgstr "Teletext-Untertitel Farbe"
@@ -9865,7 +9865,7 @@ msgid "Timer entry"
 msgstr "Timer-Eintrag"
 
 msgid "Timer log"
-msgstr "Timer-Logbuch"
+msgstr "Timer-Historie"
 
 msgid ""
 "Timer overlap in timers.xml detected!\n"
@@ -10472,7 +10472,7 @@ msgid "User defined"
 msgstr "Benutzerdefiniert"
 
 msgid "User defined transponder"
-msgstr "Vordefinierte Transponder"
+msgstr "Benutzerdefinierter Transponder"
 
 msgid "User interface"
 msgstr "Benutzeroberfläche"
@@ -10582,7 +10582,7 @@ msgid "Videocodec, size & format"
 msgstr "Codec, Auflösung & Format"
 
 msgid "Viet Nam"
-msgstr "Viet Nam"
+msgstr "Vietnam"
 
 msgid "View Rass interactive..."
 msgstr "RaSS Interaktiv anzeigen…"
@@ -12305,7 +12305,7 @@ msgid "space"
 msgstr "frei"
 
 msgid "special events"
-msgstr "Sondersendung"
+msgstr "Besondere Ereignisse"
 
 msgid "special format data DVD (HDTV compatible)"
 msgstr "spezielles Format Daten-DVD (HDTV-kompatibel)"
@@ -12314,7 +12314,7 @@ msgid "sports (general)"
 msgstr "Sport (Allgemein)"
 
 msgid "sports magazine"
-msgstr "Sportzeitung"
+msgstr "Sportmagazin"
 
 msgid "standard"
 msgstr "Standard"
@@ -12519,7 +12519,7 @@ msgid "®"
 msgstr "®"
 
 msgid "°E"
-msgstr ""
+msgstr "°O"
 
 msgid "°W"
-msgstr ""
+msgstr "°W"
