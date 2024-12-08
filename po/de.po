@@ -3395,7 +3395,7 @@ msgstr "Englisch"
 
 #, python-format
 msgid "Enigma (re)starts: %d\n"
-msgstr "Benutzeroberfläche (Enigma) startet neu: %d\n"
+msgstr "Neustarts der Benutzeroberfläche (Enigma): %d\n"
 
 #, python-format
 msgid "Enigma debug level: %d\n"
@@ -5204,8 +5204,8 @@ msgid ""
 "Manufacturer reset in progress\n"
 "Please wait until enigma2 restarts"
 msgstr ""
-"Hersteller Rücksetzung gestartet\n"
-"Bitte warten Sie bis Enigma2 sich neustartet"
+"Rücksetzung auf Auslieferungseinstellungen läuft\n"
+"Bitte warten Sie bis Enigma2 neu startet"
 
 msgid "Margin after recording (minutes)"
 msgstr "Nachlauf hinter Aufnahme (in Minuten)"
