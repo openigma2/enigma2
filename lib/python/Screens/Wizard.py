@@ -386,7 +386,7 @@ class Wizard(Screen):
 				elif keySelect:
 					self.currentConfigIndex = self["config"].getCurrentIndex()
 					self.configInstance.keySelect()
-					self.configInstance.entryChanged()
+					self.updateValues()
 					return
 		self.finished()
 
