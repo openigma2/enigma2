@@ -3417,7 +3417,7 @@ msgid "Enable remote enigma2 receiver to be tried to tune into services that can
 msgstr "Aktiviert einen Reserve-Receiver, der versucht wird wenn ein Sender lokal nicht empfangen werden kann. (z.B. wenn Tuner belegt oder Sender lokal nicht verfügbar ist). Angabe der kompletten URL inklusive http:// und Port-Nummer (normal ...:8001), z.B. http://zweite_box:8001 notwendig."
 
 msgid "Enable teletext caching"
-msgstr "Aktiviere Teletext Cache"
+msgstr "Aktiviere Teletext-Cache"
 
 msgid "Enable this setting if your aerial system needs power"
 msgstr "Aktivieren Sie diese Einstellung, wenn Ihr Antennensystem Strom benötigt"
@@ -4796,7 +4796,7 @@ msgid "Input"
 msgstr "Eingabe"
 
 msgid "Input "
-msgstr "Eingabe "
+msgstr "Input "
 
 msgid "Input Stream ID"
 msgstr "Input Stream ID"
@@ -6122,7 +6122,7 @@ msgid "On valid ONIDs, ignore frequency sub network part"
 msgstr "Ignoriere bei gültigen ONIDs die Frequenz vom Sub-Netzwerk."
 
 msgid "One"
-msgstr "Eins"
+msgstr "Eine"
 
 msgid "Online update of your receiver software."
 msgstr "Online-Update Ihrer Receiver-Software."
@@ -6801,10 +6801,10 @@ msgid "Predefined transponder"
 msgstr "Vordefinierter Transponder"
 
 msgid "Prefer AC3 track"
-msgstr "Bevorzuge AC3"
+msgstr "Bevorzuge AC3-Tonspur"
 
 msgid "Prefer AC3+ track"
-msgstr "Bevorzuge AC3+ Tonspur"
+msgstr "Bevorzuge AC3+-Tonspur"
 
 msgid "Prefer audio track stored by service"
 msgstr "Bevorzuge gespeicherte Tonspur des Senders"
@@ -9194,7 +9194,7 @@ msgid "Start recording?"
 msgstr "Aufnahme beginnen?"
 
 msgid "Start teletext"
-msgstr "Viedeotext starten"
+msgstr "Teletext starten"
 
 msgid "Start test"
 msgstr "Test starten"
@@ -10303,7 +10303,7 @@ msgstr "Tonga"
 
 #, fuzzy
 msgid "Top"
-msgstr "Zwei"
+msgstr "Oben"
 
 msgid "Top and bottom"
 msgstr "Oben und Unten"
@@ -11338,10 +11338,10 @@ msgid "When enabled, the receiver will no longer monitor the tuned transponder f
 msgstr "Veränderungen des Tuner-Transponders nicht mehr überwachen. Bitte wählen Sie diese Option nur falls Sie sich ganz sicher sind was Sie tun."
 
 msgid "When enabled, the receiver will select an AC3 track (when available)."
-msgstr "AC3 Tonspur verwenden (falls vorhanden)."
+msgstr "AC3-Tonspur verwenden (falls vorhanden)."
 
 msgid "When enabled, the receiver will select an AC3+ track (when available)."
-msgstr "Der Receiver wählt (falls verfügbar) die AC3+ Tonspur aus."
+msgstr "AC3+-Tonspur verwenden (falls vorhanden)."
 
 msgid "When enabled, then when changing bouquets, set the cursor on the service from the channel history in the channel selection list."
 msgstr "Der Cursor bei Bouquetwechsel zeigt auf den letzten Kanal, der in diesem Bouquet laut Verlauf angesehen wurde."
