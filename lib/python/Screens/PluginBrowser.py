@@ -282,9 +282,9 @@ class PluginDownloadBrowser(Screen):
 		self.install_settings_name = ''
 		self.remove_settings_name = ''
 		self["text"] = Label(_("Downloading plugin information. Please wait...") if self.type == self.DOWNLOAD else _("Getting plugin information. Please wait..."))
-		self["key_blue"] = Label(_("To remove plugins") if self.type == self.DOWNLOAD else _("To download plugins"))
 		self["key_red"] = Label(_("Cancel"))
-		self["key_green"] = Label(_("Install plugin") if self.type == self.DOWNLOAD else _("Remove plugin"))
+		self["key_green"] = Label(_("Expand"))
+		self["key_blue"] = Label(_("To remove plugins") if self.type == self.DOWNLOAD else _("To download plugins"))
 		self.run = 0
 		self.remainingdata = ""
 		self["actions"] = ActionMap(["WizardActions"],
@@ -305,6 +305,14 @@ class PluginDownloadBrowser(Screen):
 			self.opkg = 'opkg'
 			self.opkg_install = 'opkg install -force-defaults'
 			self.opkg_remove = self.opkg + ' remove'
+		self["list"].onSelectionChanged.append(self.selectionChanged)
+
+	def selectionChanged(self):
+		selection = self["list"].l.getCurrentSelection()[0]
+		if isinstance(selection, str): # category
+			self["key_green"].text = _("Compress") if selection in self.expanded else _("Expand")
+		else:
+			self["key_green"].text = _("Install plugin") if self.type == self.DOWNLOAD else _("Remove plugin")
 
 	def go(self):
 		sel = self["list"].l.getCurrentSelection()
