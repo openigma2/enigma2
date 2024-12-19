@@ -1,13 +1,14 @@
 <wizard>
 		<step id="start" nextstep="introduction">
-			<text value="Welcome.\n\nThis start wizard will guide you through the basic setup of your receiver.\nPress the OK button on your remote control to move to the next step."/>
+			<text value="Welcome.\n\nThis start wizard will guide you through the basic setup of your receiver.\nPress the Blue or OK button on your remote control to move to the next step."/>
 			<code>
 self.clearSelectedKeys()
 self.selectKey("OK")
+self.selectKey("BLUE")
 			</code>
 		</step>
 		<step id="introduction" >
-			<text value="Use the up/down keys on your remote control to select an option. After that, press OK."/>
+			<text value="Use the up/down keys on your remote control to select an option. After that, press Blue or OK."/>
 			<list>
 				<listentry caption="Use the wizard to set up basic features" step="network"/>
 				<listentry caption="Exit the wizard" step="end"/>
@@ -16,6 +17,8 @@ self.selectKey("OK")
 self.clearSelectedKeys()
 self.selectKey("UP")
 self.selectKey("DOWN")
+self.selectKey("BLUE")
+self.selectKey("OK")
 			</code>
 		</step>
 		<step id="network" >
@@ -28,6 +31,8 @@ self.selectKey("DOWN")
 self.clearSelectedKeys()
 self.selectKey("UP")
 self.selectKey("DOWN")
+self.selectKey("BLUE")
+self.selectKey("OK")
 			</code>
 		</step>
 		<step id="update">
@@ -35,6 +40,7 @@ self.selectKey("DOWN")
 			<config screen="InstallWizard" module="InstallWizard" args="0" type="ConfigList"/>
 			<code>
 self.clearSelectedKeys()
+self.selectKey("BLUE")
 self.selectKey("OK")
 			</code>
 		</step>
@@ -51,6 +57,8 @@ self.condition = not config.misc.installwizard.opkgloaded.value
 self.clearSelectedKeys()
 self.selectKey("UP")
 self.selectKey("DOWN")
+self.selectKey("BLUE")
+self.selectKey("OK")
 			</code>
 		</step>
 		<step id="timezone">
@@ -61,6 +69,8 @@ self.selectKey("DOWN")
 self.clearSelectedKeys()
 self.selectKey("LEFT")
 self.selectKey("RIGHT")
+self.selectKey("BLUE")
+self.selectKey("OK")
 			</code>
 		</step>
 		<step id="nima">
@@ -74,6 +84,8 @@ self.condition = len(nimmanager.nim_slots) > 0 and not nimmanager.nim_slots[0].e
 self.clearSelectedKeys()
 self.selectKey("LEFT")
 self.selectKey("RIGHT")
+self.selectKey("BLUE")
+self.selectKey("OK")
 			</code>
 		</step>
 		<step id="nimb">
@@ -87,6 +99,8 @@ self.condition = len(nimmanager.nim_slots) > 1 and not nimmanager.nim_slots[1].e
 self.clearSelectedKeys()
 self.selectKey("LEFT")
 self.selectKey("RIGHT")
+self.selectKey("BLUE")
+self.selectKey("OK")
 			</code>
 		</step>
 		<step id="nimc">
@@ -100,6 +114,8 @@ self.condition = len(nimmanager.nim_slots) > 2 and not nimmanager.nim_slots[2].e
 self.clearSelectedKeys()
 self.selectKey("LEFT")
 self.selectKey("RIGHT")
+self.selectKey("BLUE")
+self.selectKey("OK")
 			</code>
 		</step>
 		<step id="nimd">
@@ -113,6 +129,8 @@ self.condition = len(nimmanager.nim_slots) > 3 and not nimmanager.nim_slots[3].e
 self.clearSelectedKeys()
 self.selectKey("LEFT")
 self.selectKey("RIGHT")
+self.selectKey("BLUE")
+self.selectKey("OK")
 			</code>
 		</step>
 		<step id="nime">
@@ -126,6 +144,8 @@ self.condition = len(nimmanager.nim_slots) > 4 and not nimmanager.nim_slots[4].e
 self.clearSelectedKeys()
 self.selectKey("LEFT")
 self.selectKey("RIGHT")
+self.selectKey("BLUE")
+self.selectKey("OK")
 			</code>
 		</step>
 		<step id="nimf">
@@ -139,6 +159,8 @@ self.condition = len(nimmanager.nim_slots) > 5 and not nimmanager.nim_slots[5].e
 self.clearSelectedKeys()
 self.selectKey("LEFT")
 self.selectKey("RIGHT")
+self.selectKey("BLUE")
+self.selectKey("OK")
 			</code>
 		</step>
 		<step id="nimg">
@@ -152,6 +174,8 @@ self.condition = len(nimmanager.nim_slots) > 6 and not nimmanager.nim_slots[6].e
 self.clearSelectedKeys()
 self.selectKey("LEFT")
 self.selectKey("RIGHT")
+self.selectKey("BLUE")
+self.selectKey("OK")
 			</code>
 		</step>
 		<step id="nimh">
@@ -165,6 +189,8 @@ self.condition = len(nimmanager.nim_slots) > 7 and not nimmanager.nim_slots[7].e
 self.clearSelectedKeys()
 self.selectKey("LEFT")
 self.selectKey("RIGHT")
+self.selectKey("BLUE")
+self.selectKey("OK")
 			</code>
 		</step>
 		<step id="nimi">
@@ -178,6 +204,8 @@ self.condition = len(nimmanager.nim_slots) > 8 and not nimmanager.nim_slots[8].e
 self.clearSelectedKeys()
 self.selectKey("LEFT")
 self.selectKey("RIGHT")
+self.selectKey("BLUE")
+self.selectKey("OK")
 			</code>
 		</step>
 		<step id="nimj">
@@ -191,6 +219,8 @@ self.condition = len(nimmanager.nim_slots) > 9 and not nimmanager.nim_slots[9].e
 self.clearSelectedKeys()
 self.selectKey("LEFT")
 self.selectKey("RIGHT")
+self.selectKey("BLUE")
+self.selectKey("OK")
 			</code>
 		</step>
 		<step id="nimq">
@@ -204,6 +234,8 @@ self.condition = len(nimmanager.nim_slots) > 16 and not nimmanager.nim_slots[16]
 self.clearSelectedKeys()
 self.selectKey("LEFT")
 self.selectKey("RIGHT")
+self.selectKey("BLUE")
+self.selectKey("OK")
 			</code>
 		</step>
 		<step id="nimr">
@@ -217,6 +249,8 @@ self.condition = len(nimmanager.nim_slots) > 17 and not nimmanager.nim_slots[17]
 self.clearSelectedKeys()
 self.selectKey("LEFT")
 self.selectKey("RIGHT")
+self.selectKey("BLUE")
+self.selectKey("OK")
 			</code>
 		</step>
 		<step id="channels">
@@ -230,6 +264,8 @@ self.condition = nimmanager.somethingConnected() and config.misc.installwizard.h
 self.clearSelectedKeys()
 self.selectKey("LEFT")
 self.selectKey("RIGHT")
+self.selectKey("BLUE")
+self.selectKey("OK")
 			</code>
 		</step>
 		<step id="fallbacktuner">
@@ -243,6 +279,8 @@ self.condition = not nimmanager.somethingConnected() and config.misc.installwiza
 self.clearSelectedKeys()
 self.selectKey("LEFT")
 self.selectKey("RIGHT")
+self.selectKey("BLUE")
+self.selectKey("OK")
 			</code>
 		</step>
 		<step id="doscan">
@@ -254,6 +292,9 @@ self.condition = nimmanager.somethingConnected()
 			<config screen="InstallWizard" module="InstallWizard" args="3" type="ConfigList"/>
 			<code>
 self.clearSelectedKeys()
+self.selectKey("LEFT")
+self.selectKey("RIGHT")
+self.selectKey("BLUE")
 self.selectKey("OK")
 			</code>
 		</step>
@@ -265,6 +306,9 @@ self.condition = config.misc.installwizard.hasnetwork.value and config.misc.inst
 			<config screen="InstallWizard" module="InstallWizard" args="2" type="ConfigList"/>
 			<code>
 self.clearSelectedKeys()
+self.selectKey("LEFT")
+self.selectKey("RIGHT")
+self.selectKey("BLUE")
 self.selectKey("OK")
 			</code>
 		</step>
@@ -273,13 +317,15 @@ self.selectKey("OK")
 			<config screen="Setup" module="Setup" args="wizardsetup" type="ConfigList"/>
 			<code>
 self.clearSelectedKeys()
+self.selectKey("BLUE")
 self.selectKey("OK")
 			</code>
 		</step>
 		<step id="end" laststep="true">
-			<text value="Thank you for using the wizard. Your receiver is now ready for use.\nPress OK to start using your receiver."/>
+			<text value="Thank you for using the wizard. Your receiver is now ready for use.\nPress Blue or OK to start using your receiver."/>
 			<code>
 self.clearSelectedKeys()
+self.selectKey("BLUE")
 self.selectKey("OK")
 			</code>
 		</step>
