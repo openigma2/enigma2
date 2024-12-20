@@ -2925,7 +2925,7 @@ msgid "Display >16:9 content as"
 msgstr ""
 
 msgid "Display EPG as MultiEPG"
-msgstr ""
+msgstr "Display EPG as Multi-EPG"
 
 msgid "Display EPG info for current event"
 msgstr ""
@@ -8651,7 +8651,7 @@ msgid "Show movies"
 msgstr ""
 
 msgid "Show multi channel EPG"
-msgstr ""
+msgstr "Show multi-EPG"
 
 msgid "Show notification when import channels and/or EPG from remote receiver URL did not complete"
 msgstr ""
