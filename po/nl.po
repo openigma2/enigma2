@@ -559,7 +559,7 @@ msgid "A"
 msgstr "A"
 
 msgid "A color filter can be used for better readability of DVB subtitles."
-msgstr ""
+msgstr "Een kleurfilter kan worden gebruikt om DVB ondertitels beter leesbaar te maken."
 
 msgid "A completed recording timer is about to put your receiver in standby mode. Would you like to proceed?"
 msgstr "Een opname die gereed is wil de ontvanger in stand-by zetten. Akkoord?"
@@ -2739,7 +2739,7 @@ msgid "Cutlist editor..."
 msgstr "Opname knippen..."
 
 msgid "Cyan"
-msgstr ""
+msgstr "Cyaan"
 
 msgid "Cyprus"
 msgstr "Cyprus"
@@ -2792,9 +2792,8 @@ msgstr "DVB driver versie: "
 msgid "DVB subtitle black transparency"
 msgstr "Zwarte transparantie"
 
-#, fuzzy
 msgid "DVB subtitles color filter"
-msgstr "Kleur van de externe ondertitel"
+msgstr "Kleurfilter voor DVB ondertitels"
 
 msgid "DVB type"
 msgstr "DVB type"
@@ -3320,7 +3319,7 @@ msgid "Do you want to reboot your receiver?"
 msgstr "Wilt u de ontvanger opnieuw opstarten?"
 
 msgid "Do you want to remove all the crash logfiles"
-msgstr "Wilt u alle crashlogs verwijderen?"
+msgstr "Wilt u alle crash logs verwijderen?"
 
 msgid "Do you want to remove the package:\n"
 msgstr "Wilt u dit pakket verwijderen:\n"
@@ -3656,7 +3655,7 @@ msgid "Enabled"
 msgstr "Ingeschakeld"
 
 msgid "Encrypted: "
-msgstr "Gecodeerd"
+msgstr "Gecodeerd: "
 
 msgid "Encryption"
 msgstr "Codering"
@@ -3677,7 +3676,7 @@ msgid "End bouquet edit"
 msgstr "Bouquet bewerken stoppen"
 
 msgid "End favourites edit"
-msgstr "Favorieten bewerken stoppen "
+msgstr "Favorieten bewerken stoppen"
 
 msgid "End time"
 msgstr "Eindtijd"
@@ -3877,7 +3876,7 @@ msgid "Everywhere"
 msgstr "Overal"
 
 msgid "Exceeds dual layer medium!"
-msgstr "Overschrijdt een dual layer schijf"
+msgstr "Gaat de dual layer capaciteit te boven!"
 
 msgid "Exclude first CA device"
 msgstr "Negeer het 1e CA device"
@@ -4074,7 +4073,7 @@ msgid ""
 msgstr ""
 "Een reset naar fabrieksinstellingen herstelt de ontvanger naar de standaard instellingen. Alle gebruikersdata inclusief systeeminstellingen, tunerconfiguraties, boeketten, zenders en plugins worden verwijderd. Opnames en andere bestanden die op de harddisk of USB media zijn opgeslagen worden intact gelaten. Indien het proces is afgerond zal de ontvanger automatisch herstarten!\n"
 "\n"
-"Wilt u echt doorgaan met deze aktie? "
+"Wilt u echt doorgaan met deze aktie?"
 
 msgid "Failed"
 msgstr "Mislukt"
@@ -4137,7 +4136,7 @@ msgid "Fan %d voltage"
 msgstr "Ventilator %d voltage"
 
 msgid "Fan operation"
-msgstr "Ventilator "
+msgstr "Ventilator"
 
 msgid "Fan speed"
 msgstr "Ventilator snelheid"
@@ -4793,10 +4792,10 @@ msgid "IP"
 msgstr "IP"
 
 msgid "IP address"
-msgstr "IP-adres:"
+msgstr "IP-adres"
 
 msgid "IP of fallback remote receiver"
-msgstr "Indien u bij de voorgaande optie heeft gekozen voor 'IPadres', dan kunt u nu een specifiek IPadres ingeven waarop de Fallback tuner in het netwerk te vinden is."
+msgstr "Indien u bij de voorgaande optie heeft gekozen voor 'IP adres', dan kunt u nu een specifiek IP adres ingeven waarop de Fallback tuner in het netwerk te vinden is."
 
 msgid "ISO file is too large for this filesystem!"
 msgstr "ISO bestand is te groot voor dit bestandsysteem!"
@@ -5097,7 +5096,7 @@ msgid "Input"
 msgstr "Invoer"
 
 msgid "Input "
-msgstr "Ingang"
+msgstr "Ingang "
 
 msgid "Input Actions"
 msgstr "Ingang actie(s)"
@@ -5615,9 +5614,8 @@ msgstr "Macao"
 msgid "Madagascar"
 msgstr "Madagascar"
 
-#, fuzzy
 msgid "Magenta"
-msgstr "Argentinië"
+msgstr "Magenta"
 
 msgid "Main menu"
 msgstr "Hoofdmenu"
@@ -6024,7 +6022,7 @@ msgid "Myanmar"
 msgstr "Myanmar"
 
 msgid "N/A"
-msgstr "0.0 "
+msgstr "NVT"
 
 msgid "NEXT"
 msgstr "VOLGENDE"
@@ -6075,7 +6073,7 @@ msgid "Netherlands"
 msgstr "Nederland"
 
 msgid "Netmask"
-msgstr "Netmask:"
+msgstr "Netmask"
 
 msgid "Network"
 msgstr "Netwerk"
@@ -6867,13 +6865,13 @@ msgstr ""
 "\n"
 "Om aanvullende diensten als 'streaming video' te gebruiken dient uw ontvanger aangesloten te zijn op uw netwerk. Indien dit niet gewenst is kiest u voor de optie 'sla deze over'. Helaas mist u dan een aantal mogelijkheden. Voor standaard TV kijken heeft dit verder geen gevolgen.\n"
 "\n"
-"Bevestig uw keuze met Ok. "
+"Bevestig uw keuze met Ok."
 
 msgid "Please contact the manufacturer for clarification."
 msgstr "Benader de fabrikant om dit te verhelderen.."
 
 msgid "Please do not change any values unless you know what you are doing!"
-msgstr "Wijzig hier geen instellingen tenzij u precies weet wat u doet"
+msgstr "Wijzig hier geen instellingen tenzij u precies weet wat u doet!"
 
 msgid "Please enter a name for the new bouquet"
 msgstr "Voer de naam voor uw nieuwe bouquet in"
@@ -6882,7 +6880,7 @@ msgid "Please enter a name for the new marker"
 msgstr "Voer de naam voor uw nieuwe markeerpunt in"
 
 msgid "Please enter a new filename"
-msgstr "Voer aub een bestandsnaam in "
+msgstr "Voer aub een bestandsnaam in"
 
 msgid "Please enter filename (empty = use current date)"
 msgstr "Voer een bestandsnaam in (leeg= huidige datum)"
@@ -6968,7 +6966,7 @@ msgstr ""
 "\n"
 "Dit is afhankelijk van de samenstelling van uw schotel. In veel gevallen is dit DiSEqC A/B met Astra 19-23. U kunt dit wijzigen door op de gewenste regel te gaan staan en deze te wijzigen met de toetsen links / rechts. \n"
 " \n"
-"Bevestig uw keuze met Ok. "
+"Bevestig uw keuze met Ok."
 
 msgid "Please set up tuner B"
 msgstr ""
@@ -7241,7 +7239,7 @@ msgid "Press 'OK' for attach function."
 msgstr "Druk op Ok om de functie toe te kennen aan de gekozen toets."
 
 msgid "Press 'OK' for attach next function or 'CH+/-' for edit attached."
-msgstr "Druk 'Ok' om een nieuwe functie te koppelen of CH+/- om de gekoppelde functie aan te passen. "
+msgstr "Druk 'Ok' om een nieuwe functie te koppelen of CH+/- om de gekoppelde functie aan te passen."
 
 msgid "Press 'OK' for remove item or 'CH+/-' for toggle to list of features."
 msgstr "Druk 'Ok' om een item te verwijderen of CH+/- om te schakelen naar een functieoverzicht."
@@ -7444,7 +7442,7 @@ msgid "Python frontend for /tmp/mmi.socket"
 msgstr "Python frontend voor /tmp/mmi.socket"
 
 msgid "Python version: "
-msgstr "Pythonversie:"
+msgstr "Pythonversie: "
 
 msgid "Pythonscript"
 msgstr "Pythonscript"
@@ -7955,7 +7953,7 @@ msgid "Rotor turning speed"
 msgstr "Rotor draaisnelheid"
 
 msgid "Rotor: "
-msgstr "Rotor:"
+msgstr "Rotor: "
 
 msgid "Round start time on"
 msgstr "Starttijd afronden op"
@@ -8202,7 +8200,7 @@ msgid "Scan state"
 msgstr "Zoekstatus"
 
 msgid "Scan using transponders on NIT table? 'No' will use transponders in xml file."
-msgstr "Indien geactiveerd, dan worden alle transponders conform de NIT tabel gescand. Anders worden de transponders vanuit het XML bestand gescand. "
+msgstr "Indien geactiveerd, dan worden alle transponders conform de NIT tabel gescand. Anders worden de transponders vanuit het XML bestand gescand."
 
 msgid "Scan wireless networks"
 msgstr "Zoek naar WiFi netwerken"
@@ -9221,7 +9219,7 @@ msgid "Signal strength:"
 msgstr "Signaalsterkte:"
 
 msgid "Signal: "
-msgstr "Signaal:"
+msgstr "Signaal: "
 
 msgid "Similar"
 msgstr "Gelijkwaardig"
@@ -10077,13 +10075,12 @@ msgstr ""
 "\n"
 "Voor uitgebreide aanvullende informatie over tal van onderwerpen kunt u onze WIKI raadplegen. https://wiki.openpli.org"
 
-#, fuzzy
 msgid ""
 "Thank you for using the wizard. Your receiver is now ready for use.\n"
 "Press Blue or OK to start using your receiver."
 msgstr ""
 "Bedankt voor het gebruik van de wizard. Uw ontvanger is nu gebruiksklaar.\n"
-"Druk op Ok om uw ontvanger in gebruik te nemen."
+"Druk op Blauw of Ok om uw ontvanger in gebruik te nemen."
 
 #, python-format
 msgid "The %d min remaining before the end of the event."
@@ -10127,7 +10124,7 @@ msgid ""
 "Make sure you select a writable directory instead."
 msgstr ""
 "De %s directory is niet beschrijfbaar.\n"
-"Zorg ervoor dat u een beschrijfbare directory kiest. "
+"Zorg ervoor dat u een beschrijfbare directory kiest."
 
 msgid ""
 "The enigma.info file for the boxinformation is not available or the content is invalid.\n"
@@ -10194,7 +10191,7 @@ msgstr ""
 "\n"
 "Indien u alle punten van de pijlen kunt zien, staat overscan op de TV uitgeschakeld.\n"
 "\n"
-"Testbeeld: door TigerDave, www.tigerdave.com/ht_menu.htm "
+"Testbeeld: door TigerDave, www.tigerdave.com/ht_menu.htm"
 
 #, python-format
 msgid "The path %s already exists."
@@ -10643,7 +10640,7 @@ msgstr "Titelset modus"
 
 #, python-format
 msgid "To apply the selected '%s' skin the GUI needs to restart. Would you like to restart the GUI now?"
-msgstr "Om de gekozen skin, '%s', te activeren dient u de GUI te herstarten. Wilt u dit nu doen? "
+msgstr "Om de gekozen skin, '%s', te activeren dient u de GUI te herstarten. Wilt u dit nu doen?"
 
 msgid "To audio selection"
 msgstr "Naar audioselectie"
@@ -10734,7 +10731,7 @@ msgid "Track"
 msgstr "Spoor"
 
 msgid "Transcoding: "
-msgstr "Transcoderen:"
+msgstr "Transcoderen: "
 
 msgid "Translation"
 msgstr "Vertaling"
@@ -11140,14 +11137,13 @@ msgstr "Gebruik de netwerkwizard om de geselecteerde netwerkadapter te configure
 msgid "Use the network wizard to configure your network\n"
 msgstr "Gebruik de netwerkwizard om uw netwerk in te stellen\n"
 
-#, fuzzy
 msgid "Use the up/down keys on your remote control to select an option. After that, press Blue or OK."
 msgstr ""
 "Wizard basisinstellingen.\n"
 "\n"
 "U kunt met de omhoog/omlaag toets op uw afstandsbediening een optie kiezen. Indien u de wizard nu zou afsluiten is uw ontvanger niet gebruiksklaar. Het advies is daarom ook om de instellingen met de wizard te doorlopen.\n"
 "\n"
-"Bevestig uw keuze met Ok."
+"Bevestig uw keuze met Blauw of Ok."
 
 msgid "Use the wizard to set up basic features"
 msgstr "Start de wizard voor de basisinstellingen."
@@ -11447,7 +11443,7 @@ msgid "Waiting for partition"
 msgstr "Wacht op een verdeelpunt"
 
 msgid "Wake On LAN"
-msgstr "Wake On LAN "
+msgstr "Wake On LAN"
 
 msgid "Wake the receiver from standby when selected wake command is sent from the TV."
 msgstr ""
@@ -11474,7 +11470,7 @@ msgid "Wakeup receiver from standby"
 msgstr "Activeer ook de A/V versterker vanuit stand-by"
 
 msgid "Wakeup signal from TV"
-msgstr "Activeer het signaal van TV met "
+msgstr "Activeer het signaal van TV met"
 
 msgid "Wakeup time"
 msgstr "Wakeup tijd"
@@ -11504,7 +11500,7 @@ msgid "Warning: no LNB; using factory defaults."
 msgstr "Waarschuwing: geen LNB; standaardwaardes worden gebruikt."
 
 msgid "Warning: the second input of this dual tuner may not support SCR LNBs. "
-msgstr "Waarschuwing: De tweede ingang van deze Dual tuner ondersteunt mogelijk geen SRC LNB's."
+msgstr "Waarschuwing: De tweede ingang van deze Dual tuner ondersteunt mogelijk geen SRC LNB's. "
 
 msgid "Watch movies..."
 msgstr "Films bekijken....."
@@ -11550,7 +11546,6 @@ msgstr ""
 "\n"
 "Druk Ok om te beginnen met de configuratie van uw netwerk."
 
-#, fuzzy
 msgid ""
 "Welcome.\n"
 "\n"
@@ -11561,7 +11556,7 @@ msgstr ""
 "\n"
 "Deze opstarthulp voert u langs alle basisinstellingen van uw ontvanger.\n"
 "\n"
-"Druk Ok op uw afstandsbediening om verder te gaan."
+"Druk op Blauw of Ok op uw afstandsbediening om verder te gaan."
 
 msgid "Welcome..."
 msgstr "Welkom..."
@@ -11581,7 +11576,7 @@ msgstr ""
 "\n"
 "Indien u naast de satelliettuner ook nog een andere tuner heeft, dan kunt u ook nog kiezen voor een kabelscan of T/T2 scan indien van toepassing. De instellingen om te scannen zijn uiteraard afhankelijk van de gegevens die door uw provider aangegeven worden.\n"
 "\n"
-"Maak uw keuze en volg de aanwijzingen op het scherm. "
+"Maak uw keuze en volg de aanwijzingen op het scherm."
 
 msgid "When enabled a simplified version from the second infobar is shown. This can also be toggled instantly by holding the OK buttin when the second infobar is visible. The infobar will shortly disappear and then shown in the other mode."
 msgstr "Indien geactiveerd. dan wordt een vereenvoudigde versie van de 2e informatiebalk getoond. Dit kan ook direct worden omgeschakeld door OK ingedrukt te houden terwijl de 2e informatiebalk zichtbaar is. De informatiebalk verdwijnt dan even en wordt dan in de alternatieve modus getoond."
@@ -11698,7 +11693,7 @@ msgid "When enabled, error messages related to zapping will not be shown."
 msgstr "Indien geactiveerd, dan worden fouten a.g.v. zappen niet meer weergegeven."
 
 msgid "When enabled, external subtitles will be always turned on for playback movie."
-msgstr "Indien geactiveerd, dan zullen de externe ondertitels altijd worden weergegeven tijdens het afspelen van een film. "
+msgstr "Indien geactiveerd, dan zullen de externe ondertitels altijd worden weergegeven tijdens het afspelen van een film."
 
 msgid "When enabled, graphical DVB subtitles are preferred over teletext subtitles, when both types are available."
 msgstr "Indien geactiveerd, dan wordt, indien beide types ondertitels beschikbaar zijn, de voorkeur gegeven aan de grafische DVB ondertitels t.o.v. de teletext ondertitels."
@@ -11746,7 +11741,7 @@ msgid "When enabled, subtitles for the hearing impaired can be used."
 msgstr "Indien geactiveerd, dan kunnen de ondertitels t.b.v. gehoorgestoorden gebruikt worden."
 
 msgid "When enabled, subtitles for the hearing impaired will be preferred over normal subtitles, when both types are available."
-msgstr "Indien geactiveerd, dan wordt, indien beide type ondertitels beschikbaar zijn, de voorkeur gegeven aan de ondertitels voor gehoorgestoorden t.o.v. de normale ondertitels. "
+msgstr "Indien geactiveerd, dan wordt, indien beide type ondertitels beschikbaar zijn, de voorkeur gegeven aan de ondertitels voor gehoorgestoorden t.o.v. de normale ondertitels."
 
 msgid "When enabled, teletext pages will be cached, allowing faster access."
 msgstr "Indien geactiveerd, dan wordt de teletext informatie gecached waardoor er sneller door de teletext pagina's gebladerd kan worden."
@@ -11788,7 +11783,7 @@ msgid "When enabled, the receiver will select an AC3+ track (when available)."
 msgstr "Indien geactiveerd, dan selecteert de ontvanger een AC3+ spoor indien deze beschikbaar is."
 
 msgid "When enabled, then when changing bouquets, set the cursor on the service from the channel history in the channel selection list."
-msgstr "Indien geactiveerd, dan zal bij het wisselen van bouquet de cursor op de laatst afgespeelde zender in de zenderhistorie komen te staan. "
+msgstr "Indien geactiveerd, dan zal bij het wisselen van bouquet de cursor op de laatst afgespeelde zender in de zenderhistorie komen te staan."
 
 msgid "When enabled, this setting has more weight than 'Preferred tuner for recordings'."
 msgstr "Indien geactiveerd, dan wordt de voorkeur gegeven aan deze optie boven de optie 'Voorkeurstuner voor opname's'."
@@ -11812,7 +11807,7 @@ msgid "When nonzero, a recording will start earlier than the starting time indic
 msgstr ""
 "Met deze optie stelt u het aantal minuten in dat de opname eerder moet starten t.o.v. het in de EPG of uw papieren TV gids aangegeven tijdsstip.\n"
 "\n"
-"U kunt hier zelf een waarde ingeven. "
+"U kunt hier zelf een waarde ingeven."
 
 msgid "When nonzero, a recording will stop later than the ending time indicated by the EPG."
 msgstr ""
@@ -11884,7 +11879,7 @@ msgid "With popup"
 msgstr "Met popup"
 
 msgid "With this option you can switch on the display during operation."
-msgstr "Indien geactiveerd, dan is het display geactiveerd tijdens normaal bedrijf. "
+msgstr "Indien geactiveerd, dan is het display geactiveerd tijdens normaal bedrijf."
 
 msgid "With this option you can switch on the display in Deep Standby Mode."
 msgstr "Indien geactiveerd, dan is het display geactiveerd terwijl de box in deep stand-by staat."
@@ -12101,7 +12096,7 @@ msgstr ""
 
 #, python-format
 msgid "Your internet connection is working (IP address: %s)"
-msgstr "Uw internetverbinding is actief. Het IP adres is (IP: %s) "
+msgstr "Uw internetverbinding is actief. Het IP adres is (IP: %s)"
 
 msgid "Your network configuration has been activated."
 msgstr "De configuratie van uw netwerk is geactiveerd."
@@ -12211,7 +12206,7 @@ msgid "Zap to selected channel and exit GMEPG"
 msgstr "Zap naar de gekozen zender en verlaat de GMEPG"
 
 msgid "Zap to selected channel, or show detailed event info (depends on configuration)"
-msgstr "Zap naar de gekozen zender of toon de gedetailleerde programma-informatie (dit hangt van de configuratie af) "
+msgstr "Zap naar de gekozen zender of toon de gedetailleerde programma-informatie (dit hangt van de configuratie af)"
 
 msgid "Zap up"
 msgstr "Zap omhoog"
@@ -12264,7 +12259,7 @@ msgid "active"
 msgstr "actief"
 
 msgid "active "
-msgstr "actief"
+msgstr "actief "
 
 msgid "actual time only"
 msgstr "enkel de actuele tijd"
