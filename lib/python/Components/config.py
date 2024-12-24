@@ -556,19 +556,6 @@ class ConfigBoolean(ConfigElement):
 		# This should be set in the __init__() but has been done this way as a workaround for a stupid broken plugin that fails to call ConfigBoolean.__init__().
 		return ("1", "enable", "on", "true", "yes")
 
-	# you need to override this if str(self.value) doesn't work
-	def save(self):
-		print(self.saved_value, self.value, self.default, self.last_value)
-		if self.save_disabled or (self.value == self.default and not self.save_forced):
-			self.saved_value = None
-		else:
-			#ensure saved value is in lower case to keep backwards compatible with previous OpenPLi images
-			self.saved_value = self.tostring(self.value).lower()
-
-		if self.last_value != self.tostring(self.value):
-			self.last_value = self.tostring(self.value)
-			self.changedFinal()
-
 	def isChanged(self):
 		#Make booleans checks with saved value non case sensitive
 		sv = self.saved_value or self.tostring(self.default)
