@@ -2721,6 +2721,7 @@ class SimpleChannelSelection(ChannelSelectionBase, SelectionEventInfo):
 			{
 				"cancel": self.close,
 				"ok": self.channelSelected,
+				"epg": self.channelSelected,
 				"keyRadio": self.setModeRadio,
 				"keyTV": self.setModeTv,
 				"toggleTvRadio": self.toggleTVRadio,
