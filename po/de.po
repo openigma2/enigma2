@@ -1245,7 +1245,7 @@ msgstr "Automatische Installation, bitte warten bis alle Pakete geupdated sind"
 
 #, fuzzy
 msgid "Automatic Language"
-msgstr "Automatische Suche"
+msgstr "Automatische Sprache"
 
 msgid "Automatic Scan"
 msgstr "Automatische Suche"
@@ -2883,11 +2883,11 @@ msgstr "Gesendete HTTP-Streams entschlüsseln"
 
 #, fuzzy
 msgid "Descramble service via streamrelay port"
-msgstr "Empfangene HTTP-Streams entschlüsseln"
+msgstr "Port zum Entschlüsseln von empfangenen HTTP-Streams"
 
 #, fuzzy
 msgid "Descramble service via streamrelay url"
-msgstr "Empfangene HTTP-Streams entschlüsseln"
+msgstr "URL zum Entschlüsseln von empfangenen HTTP-Streams"
 
 msgid "Description"
 msgstr "Beschreibung"
@@ -2896,16 +2896,16 @@ msgid "Deselect"
 msgstr "Markierung aufheben"
 
 msgid "Destination of fallback remote receiver"
-msgstr "Reserve-Receiver auswählen"
+msgstr "Reserve-Tuner auswählen"
 
 msgid "Destination of fallback remote receiver for ATSC"
-msgstr "Bestimmungsort vom Reserve-Receiver für ATSC"
+msgstr "Bestimmungsort vom Reserve-Tuner für ATSC"
 
 msgid "Destination of fallback remote receiver for DVB-C"
-msgstr "Bestimmungsort vom Reserve-Receiver für DVB-C"
+msgstr "Bestimmungsort vom Reserve-Tuner für DVB-C"
 
 msgid "Destination of fallback remote receiver for DVB-T"
-msgstr "Bestimmungsort vom Reserve-Receiver für DVB-T"
+msgstr "Bestimmungsort vom Reserve-Tuner für DVB-T"
 
 msgid "Details for plugin: "
 msgstr "Details des Plugins: "
@@ -3453,7 +3453,7 @@ msgid "Enable bouquet selection in multi-EPG"
 msgstr "Aktiviere die Bouquet-Auswahl im Multi-EPG"
 
 msgid "Enable fallback remote receiver"
-msgstr "Aktiviere Reserve-Receiver"
+msgstr "Aktiviere Reserve-Tuner"
 
 msgid "Enable favourites edit"
 msgstr "Favoriteneditor anschalten"
@@ -3480,7 +3480,7 @@ msgid "Enable power off timer"
 msgstr "Aktiviere Ausschalt-Timer"
 
 msgid "Enable remote enigma2 receiver to be tried to tune into services that cannot be tuned into locally (e.g. tuner is occupied or service type is unavailable on the local tuner. Specify complete URL including http:// and port number (normally ...:8001), e.g. http://second_box:8001."
-msgstr "Aktiviert einen Reserve-Receiver, der versucht wird wenn ein Sender lokal nicht empfangen werden kann. (z.B. wenn Tuner belegt oder Sender lokal nicht verfügbar ist). Angabe der kompletten URL inklusive http:// und Port-Nummer (normal ...:8001), z.B. http://zweite_box:8001 notwendig."
+msgstr "Aktiviert einen Reserve-Tuner, der versucht wird wenn ein Sender lokal nicht empfangen werden kann. (z.B. wenn Tuner belegt oder Sender lokal nicht verfügbar ist). Angabe der kompletten URL inklusive http:// und Port-Nummer (normal ...:8001), z.B. http://zweite_box:8001 notwendig."
 
 msgid "Enable teletext caching"
 msgstr "Aktiviere Teletext-Cache"
@@ -3696,10 +3696,10 @@ msgid "EtPortal"
 msgstr "EtPortal"
 
 msgid "Ethernet network interface"
-msgstr "Ethernet Netzwerkadapter"
+msgstr "LAN-Netzwerkadapter"
 
 msgid "Ethiopia"
-msgstr "Ethiopia"
+msgstr "Äthiopien"
 
 #, fuzzy
 msgid "Event View Actions"
@@ -3953,28 +3953,28 @@ msgid "Fallback Timer"
 msgstr "Reserve-Timer"
 
 msgid "Fallback remote receiver"
-msgstr "Reserve-Receiver"
+msgstr "Reserve-Tuner"
 
 msgid "Fallback remote receiver IP"
-msgstr "Reserve-Receiver IP"
+msgstr "Reserve-Tuner IP"
 
 msgid "Fallback remote receiver Port"
-msgstr "Reserve-Receiver Port"
+msgstr "Reserve-Tuner Port"
 
 msgid "Fallback remote receiver URL"
-msgstr "Reserve-Receiver URL"
+msgstr "Reserve-Tuner URL"
 
 msgid "Fallback remote receiver for ATSC"
-msgstr "Reserve-Receiver für ATSC"
+msgstr "Reserve-Tuner für ATSC"
 
 msgid "Fallback remote receiver for DVB-C"
-msgstr "Reserve-Receiver für DVB-C"
+msgstr "Reserve-Tuner für DVB-C"
 
 msgid "Fallback remote receiver for DVB-T"
-msgstr "Reserve-Receiver für DVB-T"
+msgstr "Reserve-Tuner für DVB-T"
 
 msgid "Fallback remote receiver setup"
-msgstr "Reserve-Receiver Einstellungen"
+msgstr "Reserve-Tuner Einstellungen"
 
 msgid "Fallback tuner setup"
 msgstr "Reserve-Tuner-Einstellung"
@@ -4664,7 +4664,7 @@ msgid "IP address"
 msgstr "IP-Adresse"
 
 msgid "IP of fallback remote receiver"
-msgstr "IP des Reserve-Receivers"
+msgstr "IP des Reserve-Tuners"
 
 msgid "ISO file is too large for this filesystem!"
 msgstr "Die ISO-Datei ist für dieses Dateisystem zu groß!"
@@ -7000,7 +7000,7 @@ msgid "Port D"
 msgstr "Port D"
 
 msgid "Port of fallback remote receiver"
-msgstr "Port des Reserve-Receivers"
+msgstr "Port des Reserve-Tuners"
 
 msgid "Port used by OpenWebif on tested box."
 msgstr ""
@@ -8321,7 +8321,12 @@ msgid "Select how the satellite dish is set up. i.e. fixed dish, single LNB, DiS
 msgstr "Wählen Sie, wie die Satellitenschüssel eingerichtet wird. d.h. feste Schüssel, einzelner LNB, DiSEqC-Schalter, Positionierer usw."
 
 msgid "Select how you want your receiver to keep the correct time, either from the DVB transponder, or from the internet using NTP. Or use Auto, which will favour using NTP, but will fall back to transponder time when no internet connection is available."
-msgstr "Wähle die bevorzugte Zeitsynchronisation. Transponder ->DVB, Internet->NTP oder \"Auto\". Auswahl \"Auto\" favorisiert NTP und nutzt automatisch den Transponder falls kein Internet vorhanden ist."
+msgstr
+"Wähle die bevorzugte Methode zur Zeitsynchronisation."
+"\n"
+"Transponder-Zeit: Synchronisation über DVB (Sat, Kabel, Antenne)."
+"NTP: Synchronisation über NTP-Zeitserver im Internet."
+"Automatisch: Favorisiert NTP und nutzt automatisch die Transponder-Zeit falls kein Internet vorhanden ist."
 
 msgid "Select image"
 msgstr "Wähle Image"
@@ -8669,7 +8674,7 @@ msgid "Set all the settings back as they were"
 msgstr ""
 
 msgid "Set alternative fallback tuners for DVB-T/C or ATSC"
-msgstr "Bestimme alternativen Reserve-Tuner für DVB-T / C oder ATSC"
+msgstr "Bestimme alternativen Reserve-Tuner für DVB-T/C oder ATSC"
 
 msgid "Set as startup service"
 msgstr "Als Anschalt-Kanal setzen"
@@ -8866,17 +8871,17 @@ msgstr "Verschlüsselung in Infoleiste anzeigen"
 
 #, fuzzy
 msgid "Show default after description"
-msgstr "Erweiterte Beschreibung anzeigen"
+msgstr "Voreinstellung hinter Beschreibung anzeigen"
 
 #, fuzzy
 msgid "Show default on new line"
-msgstr "Infozeile anzeigen"
+msgstr "Voreinstellung in neuer Zeile anzeigen"
 
 msgid "Show detailed event info"
 msgstr "Detailierte Sendungsinformation anzeigen"
 
 msgid "Show disabled timers (local only)"
-msgstr ""
+msgstr "Zeige deaktivierte Timer (nur lokal)"
 
 msgid "Show event details"
 msgstr "Sendungsdetails anzeigen"
@@ -9988,7 +9993,7 @@ msgid "The DVD standard doesn't support H.264 (HDTV) video streams. Do you want 
 msgstr "Der DVD-Standard unterstützt keine H.264 (HDTV) Videos. Soll stattdessen eine Daten-DVD im Receiver-Format (die nicht in einem herkömmlichen DVD-Player abspielbar ist) erstellt werden?"
 
 msgid "The IP address from the streamrelay server that is used to descramble services that can only be encrypted via streamrelay"
-msgstr ""
+msgstr "IP-Adresse des HTTP-Servers der verwendet wird um Sender zu entschlüsseln wenn Sender nur via streamrelay verschlüsselt werden können."
 
 msgid "The PIN code has been changed successfully."
 msgstr "Der PIN-Code wurde erfolgreich geändert."
@@ -10090,7 +10095,7 @@ msgid "The path %s already exists."
 msgstr "Der Pfad %s existiert bereits."
 
 msgid "The port from the streamrelay server that is used to descramble services that can only be encrypted via streamrelay"
-msgstr ""
+msgstr "Port des HTTP-Servers der verwendet wird um Sender zu entschlüsseln wenn Sender nur via streamrelay verschlüsselt werden können."
 
 #, python-format
 msgid "The results have been written to %s"
@@ -13120,7 +13125,7 @@ msgid "winter sport"
 msgstr "Wintersport"
 
 msgid "wireless network interface"
-msgstr "Funk Netzwerkadapter"
+msgstr "WLAN-Netzwerkadapter"
 
 #, python-format
 msgid "with %d error"
