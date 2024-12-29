@@ -372,7 +372,7 @@ msgstr[1] "%s Aktualisierungen verfügbar"
 
 #, python-format
 msgid "%s%s(Default: %s)"
-msgstr ""
+msgstr "%s%s(Voreinstellung: %s)"
 
 msgid "'Minimum send interval' needs to be enabled to use this option."
 msgstr "\"kleinstes Sendeintervall\" kann hier aktiviert werden."
@@ -2729,7 +2729,7 @@ msgid "Default movie location"
 msgstr "Standard Filmlisten-Verzeichnis"
 
 msgid "Default settings"
-msgstr "Voreinstellungen"
+msgstr "Standard-Einstellungen"
 
 msgid "Default timer type"
 msgstr "Standard Timertyp"
@@ -2739,7 +2739,7 @@ msgstr "Voreinstellung+Picon"
 
 #, fuzzy, python-format
 msgid "Default: '%s'."
-msgstr "Standard"
+msgstr "Voreinstellung: '%s'."
 
 msgid "Define additional delay in milliseconds before start of http(s) streams, e.g. to connect a remote tuner, you use a complex system of DiSEqC."
 msgstr "Zusätzliche Verzögerung in Millisekunden vor dem Start von http(s)-Streams, z.B. um Verbindung zu Remote-Tuner aufzubauen oder bei einem komplexen DiSEqC-Setup."
@@ -3211,7 +3211,7 @@ msgstr "Nicht speichern und Timeshift beenden"
 
 #, fuzzy
 msgid "Don't show default"
-msgstr "Als Standard setzen"
+msgstr "Voreinstellung nicht anzeigen"
 
 msgid "Don't stop current event but disable coming events"
 msgstr "Aktuelles Event nicht beenden, aber alle zukünftige Events deaktivieren"
@@ -7745,7 +7745,7 @@ msgid "Restore backups"
 msgstr "Einstellungen wiederherstellen"
 
 msgid "Restore defaults"
-msgstr "Standard wiederherstellen"
+msgstr "Standardwerte wiederherstellen"
 
 msgid "Restore deleted images"
 msgstr "Gelöschte Images wiederherstellen"
@@ -8668,7 +8668,7 @@ msgid "Set action when movie playback is finished."
 msgstr "Aktion einstellen, wenn die Filmwiedergabe beendet ist."
 
 msgid "Set all hotkey to default?"
-msgstr "Alle Hotkeys auf standard setzen?"
+msgstr "Alle Hotkeys auf Standard-Einstellung zurücksetzen?"
 
 msgid "Set all the settings back as they were"
 msgstr ""
@@ -9316,7 +9316,7 @@ msgid "Sort by"
 msgstr "Sortiere nach"
 
 msgid "Sort list to default and exit?"
-msgstr "Liste nach Standard sortieren und beenden?"
+msgstr "Liste nach Voreinstellung sortieren und beenden?"
 
 msgid "Sort list:"
 msgstr "Sortiere Liste:"
@@ -9332,7 +9332,7 @@ msgid "Sort order for setup entries"
 msgstr "Sortierreihenfolge für Setup-Einträge"
 
 msgid "Sort plugins list to default?"
-msgstr "Sortiere Erweiterungsliste nach Standard?"
+msgstr "Sortiere Erweiterungsliste nach Voreinstellung?"
 
 #. TRANSLATORS: This must fit into the header button in the EPG-List
 msgid "Sort time"
@@ -11026,7 +11026,7 @@ msgstr "Stromaufnahme messen"
 
 #, fuzzy
 msgid "Use skin default"
-msgstr "Als Standard setzen"
+msgstr "Skin-Voreinstellung verwenden"
 
 #, fuzzy
 msgid "Use the alternative screen"
@@ -11497,7 +11497,7 @@ msgstr "Wenn aktiviert, wird der Timer vom Reserve-Tuner importiert."
 
 #, fuzzy
 msgid "When enabled the timer from the fallback tuner is the default timer"
-msgstr "Wenn aktiviert, wird der Timer vom Reserve-Tuner importiert."
+msgstr "Wenn aktiviert, wird der Timer vom Reserve-Tuner zum Standard-Timer."
 
 msgid "When enabled then when you select a new channel in the channel selection the channel selection will not close. It will only close when you select the current playing service. This is a kind of preview mode"
 msgstr "Wenn aktiviert wird bei Auswahl eines neuen Senders in der Kanalauswahlliste diese nicht geschlossen. Die Kanalauswahlliste schließt nur wenn der aktuell laufende Sender ausgewählt wird. Das ist eine Art Vorschau-Modus."
@@ -12295,7 +12295,7 @@ msgid "day"
 msgstr "Tag"
 
 msgid "default"
-msgstr "Standard"
+msgstr "Voreinstellung"
 
 msgid "delete cut"
 msgstr "Schnitt löschen"
