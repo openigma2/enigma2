@@ -123,7 +123,7 @@ msgstr "%(freespace)s %(percent)s freier Festplattenspeicher"
 
 #, python-format
 msgid "%.1f° E"
-msgstr "%.1f° E"
+msgstr "%.1f° O"
 
 #, python-format
 msgid "%.1f° W"
@@ -164,7 +164,7 @@ msgid "%H:%M"
 msgstr "%H:%M"
 
 msgid "%R"
-msgstr ""
+msgstr "%R"
 
 #. TRANSLATORS: full date representations short dayname daynum monthname long year in strftime() format! See 'man strftime'
 msgid "%a %e %B %Y"
@@ -176,7 +176,7 @@ msgstr "%a %e.%m."
 
 #. TRANSLATORS: long date representation short dayname daynum short monthname hour:minute in strftime() format! See 'man strftime'
 msgid "%a %e/%m  %-H:%M"
-msgstr "%a %e.%m.  %-H:%M"
+msgstr "%a %e.%m.,  %-H:%M"
 
 #, python-format
 msgid "%d MB"
@@ -276,8 +276,8 @@ msgstr[1] "%d Unterverzeichnisse"
 #, fuzzy, python-format
 msgid "%d week"
 msgid_plural "%d weeks"
-msgstr[0] "Wöchentlich"
-msgstr[1] "Wöchentlich"
+msgstr[0] "Woche"
+msgstr[1] "Wochen"
 
 #, python-format
 msgid "%d wireless network found!"
@@ -286,7 +286,7 @@ msgstr[0] "%d Funk-Netzwerk gefunden!"
 msgstr[1] "%d Funk-Netzwerke gefunden!"
 
 msgid "%d-%m"
-msgstr "%d-%m"
+msgstr "%d.%m."
 
 #, python-format
 msgid "%d.%02d. %02d:%02d"
@@ -378,7 +378,7 @@ msgid "'Minimum send interval' needs to be enabled to use this option."
 msgstr "\"kleinstes Sendeintervall\" kann hier aktiviert werden."
 
 msgid "'Ping' is used for detection device on this address."
-msgstr ""
+msgstr "Gerät mit dieser Adresse wird mit Ping-Befehl detektiert."
 
 msgid "(VU+ type)"
 msgstr "(VU + Typ)"
@@ -407,17 +407,17 @@ msgid "(show optional DVD audio menu)"
 msgstr "(DVD-Tonmenü anzeigen, falls vorh.)"
 
 msgid "(unknown)"
-msgstr "(unbekannte)"
+msgstr "(unbekannt)"
 
 msgid "* = Restart Required"
-msgstr ""
+msgstr "* = Neustart notwendig"
 
 msgid "* Only available if more than one interface is active."
 msgstr "* Nur verfügbar, wenn mehr als ein Netzwerkadapter aktiv ist."
 
 msgctxt "Text list separator"
 msgid ", "
-msgstr ""
+msgstr ", "
 
 msgid "-NO SERVICE\n"
 msgstr "-KEIN SERVICE\n"
@@ -563,7 +563,7 @@ msgid "A"
 msgstr "A"
 
 msgid "A color filter can be used for better readability of DVB subtitles."
-msgstr ""
+msgstr "Ein Farbfilter kann für die bessere Lesbarkeit von DVB-Untertiteln aktiviert werden."
 
 msgid "A completed recording timer is about to put your receiver in standby mode. Would you like to proceed?"
 msgstr "Ein Aufnahmetimer will Ihren Receiver in den Standby-Modus schalten. Jetzt ausführen?"
@@ -582,7 +582,7 @@ msgid "A graphical EPG for all services of a specific bouquet"
 msgstr "Ein grafischer EPG für alle Dienste eines bestimmten Bouquets"
 
 msgid "A highlight on the remote control image shows which button the help refers to. If more than one button performs the indicated function, more than one highlight will be shown. Text below the list indicates whether the function is for a long press of the button(s)."
-msgstr ""
+msgstr "Eine Hervorhebung auf der Fernbedienungsgrafik zeigt an auf welche Taste sich die Hilfe bezieht. Wenn mehr als eine Taste die beschriebene Funktion hat gibt es mehrere Hervorhebungen. Der Text unterhalb der Liste zeigt an ob die Funktion einen langen Tastendruck erfordert."
 
 #, python-format
 msgid ""
@@ -1083,10 +1083,10 @@ msgstr ""
 "Der Receiver wird danach neu gestartet!"
 
 msgid "Argentina"
-msgstr "Argentina"
+msgstr "Argentinien"
 
 msgid "Armenia"
-msgstr "Armenia"
+msgstr "Armenien"
 
 msgid "Artist"
 msgstr "Künstler"
@@ -1185,10 +1185,10 @@ msgid "Audio volume step size"
 msgstr "Audio-Lautstärke Schrittgröße"
 
 msgid "Australia"
-msgstr "Australia"
+msgstr "Australien"
 
 msgid "Australian"
-msgstr "Australien"
+msgstr "Australisch"
 
 msgid "Austria"
 msgstr "Österreich"
@@ -1578,7 +1578,7 @@ msgid "Cable"
 msgstr "Kabel"
 
 msgid "Cable Scan"
-msgstr "Kabel Suche"
+msgstr "Kabelsuche"
 
 #, python-format
 msgid "Cable scan executable utility not found '%s'!"
@@ -1603,10 +1603,10 @@ msgid "Calibrate"
 msgstr "Kalibrieren"
 
 msgid "Cambodia"
-msgstr "Cambodia"
+msgstr "Kambodscha"
 
 msgid "Cameroon"
-msgstr "Cameroon"
+msgstr "Kamerun"
 
 msgid "Can be used for different fps between external subtitles and video."
 msgstr "Kann für unterschiedliche fps-Werte zwischen externen Untertiteln und dem Video verwendet werden."
@@ -1719,7 +1719,7 @@ msgid "Central African Republic"
 msgstr "Zentralafrikanische Republik"
 
 msgid "Chad"
-msgstr "Chad"
+msgstr "Tschad"
 
 msgid "Change Language"
 msgstr "Sprache ändern"
@@ -1851,10 +1851,10 @@ msgid "China"
 msgstr "China"
 
 msgid "Chinese - Simplified"
-msgstr "Vereinfachtes Chinesisch"
+msgstr "Chinesisch (vereinfacht)"
 
 msgid "Chinese - Traditional"
-msgstr "Chinesische Tradition"
+msgstr "Chinesisch (traditionell)"
 
 msgid "Choose Tuner"
 msgstr "Wähle Tuner"
@@ -9217,10 +9217,10 @@ msgid "Slovak"
 msgstr "Slowakisch"
 
 msgid "Slovakia"
-msgstr "Slovakia"
+msgstr "Slowakei"
 
 msgid "Slovenia"
-msgstr "Slovenia"
+msgstr "Slowenien"
 
 msgid "Slovenian"
 msgstr "Slowenisch"
@@ -9354,16 +9354,16 @@ msgid "South"
 msgstr "Süd"
 
 msgid "South Africa"
-msgstr "South Africa"
+msgstr "SÜdafrika"
 
 msgid "South Georgia and the South Sandwich Islands"
 msgstr "South Georgia and the South Sandwich Islands"
 
 msgid "South Sudan"
-msgstr "South Sudan"
+msgstr "Südsudan"
 
 msgid "Spain"
-msgstr "Spain"
+msgstr "Spanien"
 
 msgid "Spanish"
 msgstr "Spanisch"
@@ -9455,15 +9455,15 @@ msgstr "Standby in"
 
 #, fuzzy
 msgid "Start CableScan"
-msgstr "Kabel Suche"
+msgstr "Kabelsuche starten"
 
 #, fuzzy
 msgid "Start Cablescan"
-msgstr "Test starten"
+msgstr "Kabelsuche starten"
 
 #, fuzzy
 msgid "Start Fastscan"
-msgstr "Fast-Scan"
+msgstr "Fast-Scan starten"
 
 #, fuzzy
 msgid "Start Sleeptimer"
