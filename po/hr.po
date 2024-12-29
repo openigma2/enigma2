@@ -1261,7 +1261,7 @@ msgstr "Automatska instalacija - pričekajte da se paketi ažuriraju"
 
 #, fuzzy
 msgid "Automatic Language"
-msgstr "Automatska pretraga"
+msgstr "Automatski odabir jezika"
 
 msgid "Automatic Scan"
 msgstr "Automatska pretraga"
