@@ -88,7 +88,7 @@ class UpdatePlugin(Screen, ProtectedScreen):
 		if status is None:
 			message = _("You can't update the software because %s can not be reached.") % ("http://downloads.openpli.org")
 			abort = True
-		else
+		else:
 			# try to fetch the trafficlight json from the website
 			url = "https://openpli.org/trafficlight"
 			try:
