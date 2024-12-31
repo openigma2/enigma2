@@ -19,7 +19,7 @@ msgid ""
 " Do you want to switch to Android ?"
 msgstr ""
 "\n"
-"Wollen Sie zu Android wechseln ?"
+"Wollen Sie zu Android wechseln?"
 
 msgid ""
 "\n"
@@ -790,7 +790,7 @@ msgid "Add service to favourites"
 msgstr "Kanal zu Favoriten hinzufügen"
 
 msgid "Add services to this bouquet?"
-msgstr "Zu Bouquet hinzufügen ?"
+msgstr "Zu Bouquet hinzufügen?"
 
 msgid "Add timer"
 msgstr "Timer setzen"
@@ -3282,10 +3282,10 @@ msgid "Dynamic contrast"
 msgstr "Dynamischer Kontrast"
 
 msgid "E"
-msgstr "E"
+msgstr "O"
 
 msgid "ECM Info"
-msgstr " ECM Info "
+msgstr "ECM Info"
 
 msgid "EJECTCD"
 msgstr ""
@@ -12132,7 +12132,7 @@ msgid "additional cable of rotor"
 msgstr "zusätzliches Kabel für den Motor"
 
 msgid "adult movie"
-msgstr "Erwachsenenfilm/Drama"
+msgstr "Erwachsenenfilm"
 
 msgid "advanced"
 msgstr "Erweitert"
@@ -12494,7 +12494,7 @@ msgid "help..."
 msgstr "Hilfe…"
 
 msgid "high"
-msgstr ""
+msgstr "hoch"
 
 msgid "horizontal"
 msgstr "Horizontal"
@@ -12609,7 +12609,7 @@ msgid "mins"
 msgstr "Minuten"
 
 msgid "module disabled"
-msgstr "deaktivierte Module"
+msgstr "Modul deaktiviert"
 
 msgid "month"
 msgstr "Monat"
@@ -12618,7 +12618,7 @@ msgid "motor sport"
 msgstr "Motorsport"
 
 msgid "motoring"
-msgstr "Motorsport"
+msgstr "Autos"
 
 msgid "move down to last entry"
 msgstr "Zum letzten Eintrag gehen"
@@ -12657,7 +12657,7 @@ msgid "new media"
 msgstr "Neue Medien"
 
 msgid "news magazine"
-msgstr "Nachrichtenmagazine"
+msgstr "Nachrichtensendung"
 
 msgid "news/current affairs (general)"
 msgstr "Nachrichten/Tagesgeschehen (Allgemein)"
@@ -12950,10 +12950,10 @@ msgid "soap/melodrama/folkloric"
 msgstr "Soap/Melodrama/Volkstümlich"
 
 msgid "social/political issues/economics (general)"
-msgstr "Soziale/Politische Angelegenheiten/Wirtschaft (Allgemein)"
+msgstr "Soziales/Politik/Wirtschaft (Allgemein)"
 
 msgid "social/spiritual sciences"
-msgstr "Sozial/Geisteswissenschaft"
+msgstr "Sozial-/Geisteswissenschaft"
 
 msgid "space"
 msgstr "frei"
@@ -13038,7 +13038,7 @@ msgid "true"
 msgstr "Ja"
 
 msgid "type"
-msgstr "typ"
+msgstr "Typ"
 
 msgid "unavailable"
 msgstr "Nicht verfügbar"
@@ -13059,7 +13059,7 @@ msgid "unknown service"
 msgstr "Unbekannter Kanal"
 
 msgid "untestable"
-msgstr "untestbar"
+msgstr "nicht testbar"
 
 msgid "until standby/restart"
 msgstr "Bis zum Standby/Neustart"
@@ -13080,13 +13080,13 @@ msgid "variety show"
 msgstr "Abwechslungsreiche Sendung"
 
 msgid "version"
-msgstr "version"
+msgstr "Version"
 
 msgid "vertical"
 msgstr "Vertikal"
 
 msgid "violet"
-msgstr "violett"
+msgstr "Violett"
 
 msgid "wait for ci..."
 msgstr "Warte auf CI…"
