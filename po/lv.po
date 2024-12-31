@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-12-30 14:55+0200\n"
+"POT-Creation-Date: 2024-12-31 14:23+0200\n"
 "PO-Revision-Date: 2014-11-12 00:49+0200\n"
 "Last-Translator: Taapat <taapat@gmail.com>\n"
 "Language-Team: Taapat <taapat@gmail.com>\n"
@@ -287,9 +287,9 @@ msgstr[2] "%d apakšmapes"
 #, python-format
 msgid "%d week"
 msgid_plural "%d weeks"
-msgstr[0] "nedēļu"
-msgstr[1] "nedēļas"
-msgstr[2] "nedēļas"
+msgstr[0] "%d nedēļu"
+msgstr[1] "%d nedēļas"
+msgstr[2] "%d nedēļas"
 
 #, python-format
 msgid "%d wireless network found!"
@@ -3986,13 +3986,13 @@ msgid "Fast"
 msgstr "Ātrs"
 
 msgid "Fast Channel Change"
-msgstr "Atrā kanālu pārslēgšana"
+msgstr "Ātrā kanālu pārslēgšana"
 
 msgid "Fast Channel Change Setup"
-msgstr "Atrās kanālu pārslēgšanas iestatījumi"
+msgstr "Ātrās kanālu pārslēgšanas iestatījumi"
 
 msgid "Fast Channel Change setup"
-msgstr "Atrās kanālu pārslēgšanas iestatījumi"
+msgstr "Ātrās kanālu pārslēgšanas iestatījumi"
 
 msgid "Fast DiSEqC"
 msgstr "Ātrais DiSEqC"
@@ -4096,7 +4096,7 @@ msgid "Following tasks will be done after you press OK!"
 msgstr "Šādi uzdevumi tiks veikti pēc tam, kad nospiedīsiet OK!"
 
 msgid "For this box, the network connection can also be used for detection."
-msgstr "Šīs iekārats noteikšanai var izmantot arī tīkla savienojumu."
+msgstr "Šīs iekārtas noteikšanai var izmantot arī tīkla savienojumu."
 
 msgid "Force legacy signal stats"
 msgstr "Piespiedu mantoto signālu statistika"
@@ -5093,7 +5093,7 @@ msgid "Jordan"
 msgstr "Jordāna"
 
 msgid "Jump to beginning of list"
-msgstr "Pārlekt uz saraksta sākumu"
+msgstr "Pārlēkt uz saraksta sākumu"
 
 msgid "Jump to end of list"
 msgstr "Pārlēkt uz saraksta beigām"
@@ -8722,7 +8722,7 @@ msgid "Show"
 msgstr "Rādīt"
 
 msgid "Show All Services"
-msgstr "Paradīt visus kanālus"
+msgstr "Parādīt visus kanālus"
 
 msgid "Show Audioselection"
 msgstr "Rādīt audio izvēlni"
@@ -9101,7 +9101,7 @@ msgid "Skip jumping to live TV while timeshifting with plugins"
 msgstr "Nepārslēgt uz tiešraidi kad notiek laika aizture"
 
 msgid "Sleep Timer Editor Actions"
-msgstr "Miega taimera rediģēsanas darbības"
+msgstr "Miega taimera rediģēšanas darbības"
 
 msgid "Sleep timer"
 msgstr "Miega taimeris"
@@ -9267,7 +9267,7 @@ msgid "Sound carrier"
 msgstr "Nesēja skaņa"
 
 msgid "Source request"
-msgstr "Аvots"
+msgstr "Avots"
 
 msgid "South"
 msgstr "Dienvidi"
@@ -10419,7 +10419,7 @@ msgid "Timezone"
 msgstr "Laika josla"
 
 msgid "Timor-Leste"
-msgstr "Timora-Leste"
+msgstr "Timola-Leste"
 
 msgid "Title"
 msgstr "Nosaukums"
@@ -10496,7 +10496,7 @@ msgid "Toggle videomode"
 msgstr "Pārslēgt video režīmu"
 
 msgid "Togo"
-msgstr "Togo"
+msgstr "Toga"
 
 msgid "Tokelau"
 msgstr "Tokelau"
@@ -10559,7 +10559,7 @@ msgid "Tries left:"
 msgstr "Atlikuši mēģinājumi:"
 
 msgid "Trinidad and Tobago"
-msgstr "Trinidada un Tobāgo"
+msgstr "Trinidada un Tobago"
 
 msgid "Troubleshoot"
 msgstr "Informācija"
@@ -11760,6 +11760,10 @@ msgstr "Iestatiet noklusēto (root) mapi mediju atskaņotājam."
 
 msgid "You can set sorting type for items in movielist."
 msgstr "Iestatiet mediju saraksta kārtošanas veidu."
+
+#, python-format
+msgid "You can't update the software because %s can not be reached."
+msgstr "Jūs nevarat atjaunināt programmatūru, jo %s nedarbojas."
 
 msgid "You cannot delete this!"
 msgstr "Jūs šo nevarat dzēst!"
