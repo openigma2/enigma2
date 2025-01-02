@@ -81,7 +81,7 @@ class UpdatePlugin(Screen, ProtectedScreen):
 		# check for general web connectivity first
 		url = "http://downloads.openpli.org/online.php"
 		try:
-			status = dict(load(urlopen(url, timeout=5)))
+			status = urlopen(url, timeout=5)
 		except Exception as er:
 			pass
 
