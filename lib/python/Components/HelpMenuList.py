@@ -139,7 +139,6 @@ class HelpMenuList(List):
 		if headings:
 			for (actionmap, context, actions) in sorted(helplist, key=self._sortHeadingsAlpha):
 				actionmapGroupKey = getActionmapGroupKey(actionmap, context)
-				print(actionmapGroupKey)
 				if actionmapGroupKey in actionMapHelp:
 					if sortKey:
 						actionMapHelp[actionmapGroupKey].sort(key=sortKey)
