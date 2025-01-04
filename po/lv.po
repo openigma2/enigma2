@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-12-31 14:23+0200\n"
+"POT-Creation-Date: 2025-01-04 14:33+0200\n"
 "PO-Revision-Date: 2014-11-12 00:49+0200\n"
 "Last-Translator: Taapat <taapat@gmail.com>\n"
 "Language-Team: Taapat <taapat@gmail.com>\n"
@@ -686,10 +686,10 @@ msgid "AGC:"
 msgstr "AGC:"
 
 msgid "ARROWLEFT"
-msgstr "BULTAPAKLEISI"
+msgstr "BULTA PA KREISI"
 
 msgid "ARROWRIGHT"
-msgstr "BULTAPALABI"
+msgstr "BULTA PA LABI"
 
 msgid "ASS file"
 msgstr "ASS fails"
@@ -701,7 +701,7 @@ msgid "AUDIO"
 msgstr "AUDIO"
 
 msgid "AUTOTIMER"
-msgstr "AUTOTAIMERIS"
+msgstr "AUTO TAIMERIS"
 
 msgid "Abort"
 msgstr "Atcelt"
@@ -2026,7 +2026,7 @@ msgid "Complex (allows mixing audio tracks and aspects)"
 msgstr "Komplicēts (pieļauj skaņas celiņu un aspektu jaukšanu)"
 
 msgid "Composition of the recording filenames"
-msgstr "Ieraksta faila nosaukuma veidošana"
+msgstr "Ieraksta failu nosaukumi"
 
 msgid "Config List Actions"
 msgstr "Iestatīšanas darbības"
@@ -2078,7 +2078,7 @@ msgid "Configure how many channels are shown in the selection list."
 msgstr "Uzstāda cik daudz kanālu tiks attēlots kanālu sarakstā."
 
 msgid "Configure how recording filenames are constructed."
-msgstr "Uzstāda kā tiek sastādīti ierakstu failu vārdi."
+msgstr "Uzstāda kā tiek sastādīti ierakstu failu nosaukumi."
 
 msgid "Configure how the fan should operate"
 msgstr "Uzstāda kā vadīt ventilatoru"
@@ -2620,7 +2620,7 @@ msgid "DMM normal"
 msgstr "DMM normāls"
 
 msgid "DOWN"
-msgstr "UZLEJU"
+msgstr "UZ LEJU"
 
 msgid "DTS"
 msgstr "DTS"
@@ -3275,13 +3275,13 @@ msgid "ECM Info"
 msgstr "ECM info"
 
 msgid "EJECTCD"
-msgstr "IZŅEMTCD"
+msgstr "IZŅEMT CD"
 
 msgid "END"
-msgstr "BEIGAS"
+msgstr "END"
 
 msgid "ENTER"
-msgstr "IEVADS"
+msgstr "IEVADĪT"
 
 msgid "EPG"
 msgstr "EPG"
@@ -3308,7 +3308,7 @@ msgid "EPG:"
 msgstr "EPG:"
 
 msgid "EPGSETUP"
-msgstr "EPGIESTATĪJUMI"
+msgstr "EPG IESTATĪJUMI"
 
 #, python-format
 msgid "ERROR - failed to scan (%s)!"
@@ -3693,7 +3693,7 @@ msgid "Event font size (relative to skin size)"
 msgstr "Notikuma fontu izmērs (salīdzinājumā ar noformējuma izmēru)"
 
 msgid "Event name first"
-msgstr "Nosaukums vispirms"
+msgstr "Vispirms notikuma nosaukums"
 
 msgid "Event view"
 msgstr "Notikuma apskats"
@@ -3896,7 +3896,7 @@ msgid "FHD"
 msgstr "FHD"
 
 msgid "FORWARD"
-msgstr "UZPRIEKŠU"
+msgstr "UZ PRIEKŠU"
 
 msgid "FTA"
 msgstr "FTA"
@@ -4441,7 +4441,7 @@ msgid "HDx1/HD1xxx/HD5x0C/VS1x00/et7x00/et8500/et7000mini"
 msgstr "HDx1/HD1xxx/HD5x0C/VS1x00/et7x00/et8500/et7000mini"
 
 msgid "HELP"
-msgstr "Palīdzība"
+msgstr "PALĪDZĪBA"
 
 msgid "HISTORY"
 msgstr "VĒSTURE"
@@ -4453,7 +4453,7 @@ msgid "HOME"
 msgstr "MĀJĀS"
 
 msgid "HOMEPAGE"
-msgstr "MĀJASLAPA"
+msgstr "MĀJAS LAPA"
 
 msgid "Haiti"
 msgstr "Haiti"
@@ -4621,7 +4621,7 @@ msgid "IDLE"
 msgstr "NEIZMANTOTS"
 
 msgid "INFO"
-msgstr "Info"
+msgstr "INFO"
 
 msgid "INS"
 msgstr "INS"
@@ -4648,7 +4648,7 @@ msgid "Icons"
 msgstr "Ikona"
 
 msgid "If an action is user-configurable, its help entry will be flagged (C)"
-msgstr "Ja darbību var konfigurēt lietotājs, tās palīdzības ieraksts tiks atzīmēts ar (Konf)"
+msgstr "Ja darbību var konfigurēt lietotājs, tās palīdzības ieraksts tiks atzīmēts ar (K)"
 
 msgid "If disabled, underline characters in file and directory names are not shown and are replaced with spaces."
 msgstr "Ja izslēgts pasvītrojuma rakstzīmes failu un direktoriju nosaukumos netiks rādītas un tiks aizstātas ar atstarpēm."
@@ -5195,7 +5195,7 @@ msgid "LAN connection"
 msgstr "Tīkla savienojums"
 
 msgid "LEFT"
-msgstr "PAKREISI"
+msgstr "PA KREISI"
 
 msgid "LIST"
 msgstr "SARKSTS"
@@ -5392,13 +5392,13 @@ msgid "Logfile does not exist anymore"
 msgstr "Žurnāla fails vairs neeksistē"
 
 msgid "Long filenames"
-msgstr "Garie failu vārdi"
+msgstr "Gari nosaukumi"
 
 msgid "Long key press"
-msgstr "Ilgstoša taustiņa nospiešana"
+msgstr "Ilgstoši nospiežot taustiņu"
 
 msgid "Long press: "
-msgstr "Ilgstoša piespiešana: "
+msgstr "Ilgstoša nospiešana: "
 
 msgid "Longitude"
 msgstr "Garums"
@@ -5868,7 +5868,7 @@ msgid "NEXT"
 msgstr "NĀKAMAIS"
 
 msgid "NEXTSONG"
-msgstr "NĀKAMĀDZIESMA"
+msgstr "NĀKAMĀ DZIESMA"
 
 msgid "NIM & Type"
 msgstr "NIM un veids"
@@ -6252,7 +6252,7 @@ msgid "OE Version: "
 msgstr "Versija: "
 
 msgid "OK"
-msgstr "Labi"
+msgstr "OK"
 
 msgid "ONID"
 msgstr "ONID"
@@ -6408,10 +6408,10 @@ msgid "Overwrite configuration files?"
 msgstr "Pārrakstīt konfigurācijas failus?"
 
 msgid "PAGEDOWN"
-msgstr "UZLEJU"
+msgstr "UZ LEJU"
 
 msgid "PAGEUP"
-msgstr "UZAUGŠU"
+msgstr "UZ AUGŠU"
 
 msgid "PAL"
 msgstr "PAL"
@@ -6441,7 +6441,7 @@ msgid "PLAYLIST"
 msgstr "SARAKSTS"
 
 msgid "PLAYPAUSE"
-msgstr "ATSKAŅOTPAUZE"
+msgstr "ATSKAŅOT PAUZE"
 
 msgid "PLP ID"
 msgstr "PLP ID"
@@ -6471,10 +6471,10 @@ msgid "PPanel"
 msgstr "PPanelis"
 
 msgid "PREVIOUS"
-msgstr "PREVIOUS"
+msgstr "IEPRIEKŠĒJAIS"
 
 msgid "PREVIOUSSONG"
-msgstr "IEPRIEKŠEJĀDZIESMA"
+msgstr "IEPRIEKŠEJĀ DZIESMA"
 
 msgid "PULSe 4K(mini)"
 msgstr "PULSe 4K(mini)"
@@ -7277,10 +7277,10 @@ msgid "RECALL"
 msgstr "ATGĀDINĀT"
 
 msgid "RECORD"
-msgstr "IRAKSTI"
+msgstr "IRAKSTĪT"
 
 msgid "RED"
-msgstr "RED"
+msgstr "SARKANĀ"
 
 msgid "REWIND"
 msgstr "ATTĪT"
@@ -7289,7 +7289,7 @@ msgid "RF output"
 msgstr "RF izeja"
 
 msgid "RIGHT"
-msgstr "PALABI"
+msgstr "PA LABI"
 
 msgid "Radio"
 msgstr "Radio"
@@ -8713,7 +8713,7 @@ msgid "Shift"
 msgstr "Shift"
 
 msgid "Short filenames"
-msgstr "Īsie failu nosaukumi"
+msgstr "Īsi nosaukumi"
 
 msgid "Shortcut Actions"
 msgstr "Īsceļa darbības"
@@ -9780,7 +9780,7 @@ msgid "TIMER"
 msgstr "TAIMERIS"
 
 msgid "TIMESHIFT"
-msgstr "LAIKANOBĪDE"
+msgstr "LAIKA NOBĪDE"
 
 #. TRANSLATORS: Add here whatever should be shown in the "translator" about screen, up to 6 lines (use \n for newline)
 msgid "TRANSLATOR_INFO"
@@ -10670,7 +10670,7 @@ msgid "UNKNOWN"
 msgstr "NEZINĀMS"
 
 msgid "UP"
-msgstr "UZAUGŠU"
+msgstr "UZ AUGŠU"
 
 msgid "URL"
 msgstr "Adrese"
@@ -11006,7 +11006,7 @@ msgid "VIDEO"
 msgstr "VIDEO"
 
 msgid "VKEY"
-msgstr "VPOGA"
+msgstr "VKEY"
 
 msgid "VLAN connection"
 msgstr "VLAN savienojums"
@@ -11015,7 +11015,7 @@ msgid "VMGM (intro trailer)"
 msgstr "VMGM (ievada treileris)"
 
 msgid "VMODE"
-msgstr "VREŽĪMS"
+msgstr "VMODE"
 
 msgid "VOB file"
 msgstr "VOB fails"
@@ -11913,7 +11913,7 @@ msgstr ""
 "Lūdzu izvēlieties, ko jūs vēlaties darīt tālāk."
 
 msgid "ZOOM"
-msgstr "PALIELINĀJUMS"
+msgstr "PALIELINĀT"
 
 msgid "Zambia"
 msgstr "Zambija"
@@ -12856,7 +12856,7 @@ msgid "sports magazine"
 msgstr "sporta žurnāls"
 
 msgid "standard"
-msgstr "standarta"
+msgstr "Standarta"
 
 msgid "standby "
 msgstr "gaidstāve "
