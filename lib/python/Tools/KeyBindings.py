@@ -221,7 +221,8 @@ keyDescriptions = [{  # id=0 - dmm0 remote directory, DM8000.
 	KEYIDS["KEY_SUSPEND"]: ("SUSPEND",),
 	KEYIDS["KEY_WAKEUP"]: ("WAKEUP",),
 	KEYIDS["KEY_MP3"]: ("MP3",),
-	KEYIDS["KEY_VOD"]: ("VOD",)
+	KEYIDS["KEY_VOD"]: ("VOD",),
+	KEYIDS["KEY_TOUCHPAD_TOGGLE"]: ("TOUCHPAD_TOGGLE",)
 }, {  # id=3 - XP1000.
 	# The xp1000/rcpositions file defines PLAY and PAUSE
 	# at the same location where it should just define
