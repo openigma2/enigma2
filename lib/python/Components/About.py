@@ -55,6 +55,12 @@ def getEnigmaVersionString():
 	return enigma_version
 
 
+#maybe in future it is better to swig the branch string - for now I retrieve it from the VersionString
+def getEnigmaBranchString():
+	import enigma
+	return enigma.getEnigmaVersionString()[11:]
+
+
 def getGStreamerVersionString():
 	try:
 		from glob import glob
