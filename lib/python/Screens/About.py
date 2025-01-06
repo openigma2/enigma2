@@ -43,7 +43,14 @@ class About(Screen):
 		# [WanWizard] Removed until we find a reliable way to determine the installation date
 		# AboutText += _("Installed: ") + about.getFlashDateString() + "\n"
 
-		EnigmaVersion = _("Enigma version: ") + about.getEnigmaVersionString()
+		# get enigma version, and put the release version in front
+		EnigmaVersion = about.getEnigmaVersionString()
+		EnigmaVersion = EnigmaVersion.rsplit("-", EnigmaVersion.count("-") - 2)
+		if len(EnigmaVersion) == 3:
+			EnigmaVersion  = EnigmaVersion[0] + " (" + EnigmaVersion[2] + "-" + EnigmaVersion[1] + ")"
+		else:
+			EnigmaVersion = EnigmaVersion[0] + " (" + EnigmaVersion[1] + ")"
+		EnigmaVersion = _("Enigma version: ") + EnigmaVersion
 		self["EnigmaVersion"] = StaticText(EnigmaVersion)
 		AboutText += "\n" + EnigmaVersion + "\n"
 
@@ -214,13 +221,9 @@ class CommitInfo(Screen):
 
 		self["key_red"] = Button(_("Cancel"))
 
-		# get the branch to display from the boxinfo image type and version
+		# get the branch to display from the Enigma version
 		try:
-			# develop-type images have no version but a revision number
-			if BoxInfo.getItem('imagetype') == "rev":
-				branch = "?sha=" + BoxInfo.getItem('imageversion')
-			else:
-				branch = "?sha=%s-%s" % (BoxInfo.getItem('imagetype'),BoxInfo.getItem('imageversion'))
+			branch = "?sha=" + about.getEnigmaVersionString()[11:]
 		except:
 			branch = ""
 		branch_e2plugins = "?sha=python3"
