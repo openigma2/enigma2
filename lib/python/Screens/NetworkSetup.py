@@ -218,7 +218,7 @@ class AdapterSetup(ConfigListScreen, HelpableScreen, Screen):
 		self.createConfig()
 
 		self.list = []
-		ConfigListScreen.__init__(self, self.list, session=self.session, fullUI=True)
+		ConfigListScreen.__init__(self, self.list, session=self.session, fullUI=True, blue_button={'function': self.keySave, 'text': _("Activate Network Setting")})
 		self.createSetup()
 		self.onLayoutFinish.append(self.layoutFinished)
 		self.onClose.append(self.cleanup)
