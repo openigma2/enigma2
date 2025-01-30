@@ -62,6 +62,7 @@ class BoxInformation:
 				print("[SystemInfo] Enigma information file data loaded, but checksum failed.")
 		else:
 			print("[SystemInfo] ERROR: %s is not available!  The system is unlikely to boot or operate correctly." % file)
+		self.correctValue()
 		self.boxInfo.setImmutable() #make what is derived from enigma.info immutable
 
 	def processValue(self, value):
@@ -96,6 +97,37 @@ class BoxInformation:
 	def deleteItem(self, item, *args, **kws):
 		del self.boxInfo[item]
 		return True
+
+	def correctValue(self):
+		machine = BoxInfo.getItem("machine")
+		model = str(BoxInfo.getItem("model"))
+		value = ""
+		if machine.startswith("h9combo") and model.startswith("h9twin"):
+			value = model
+		elif machine.startswith("et"):
+			if machine == "et4x00":
+				value = "et4000"
+			elif machine == "et5x00":
+				value = "et5000"
+			elif machine == "et6x00":
+				if model == "et6000":
+					value = model
+				elif model == "et6500":
+					value = model
+			elif machine == "et7x00":
+				if model == "et7000":
+					value = model
+				elif model == "et7500":
+					value = model
+			elif machine == "et9x00":
+				if model == "et9000":
+					value = model
+				elif model == "et9200":
+					value = model
+				elif model == "et9500":
+					value = model
+		if value:
+			self.setItem("machine", value)
 
 
 BoxInfo = BoxInformation()
