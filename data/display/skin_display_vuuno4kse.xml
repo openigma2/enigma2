@@ -59,7 +59,7 @@
 		<widget source="SetupValue" render="Label" position="0,200" size="400,70" font="Medium" halign="center" valign="center" />
 	</screen>
 	<screen name="InfoBarSummary" position="fill">
-			<widget source="session.CurrentService" render="Label" position="0,5" size="400,45" font="Medium" halign="center" valign="center" foregroundColor="yellow" >
+			<widget source="session.CurrentService" render="Label" position="160,5" size="240,45" font="Medium" halign="center" valign="center" foregroundColor="yellow" >
 				<convert type="ServiceName">Name</convert>
 			</widget>
 			<widget source="session.Event_Now" render="Label" position="0,150" size="400,40" font="Small" halign="center" valign="center" >
@@ -80,7 +80,7 @@
 					<convert type="EventTime">Remaining</convert>
 					<convert type="RemainingToText">FOLLOW</convert>
 				</widget>
-			<widget source="session.CurrentService" render="Picon" isFrontDisplayPicon="1" position="1210,50" size="160,100" transparent="1" halign="center" valign="center" alphatest="blend" >
+			<widget source="session.CurrentService" render="Picon" isFrontDisplayPicon="1" position="0,0" size="160,100" transparent="1" halign="center" valign="center" alphatest="blend" >
 				<convert type="ServiceName">Reference</convert>
 			</widget>
 			<widget source="session.FrontendInfo" render="Label" position="10,50" size="130,82" borderWidth="1" borderColor="black" zPosition="1" backgroundColor="transpBlack" transparent="1" font="FdLcD;28">
@@ -103,8 +103,11 @@
 	</screen>
 	<!-- channelselection-->
 	<screen name="ChannelSelection_summary" position="fill">
-		<widget source="parent.ServiceEvent" render="Label" position="0,5" size="400,45" font="Medium" halign="center" valign="center" foregroundColor="yellow" >
+		<widget source="parent.ServiceEvent" render="Label" position="160,5" size="240,45" font="Medium" halign="center" valign="center" foregroundColor="yellow" >
 			<convert type="ServiceName">Name</convert>
+		</widget>
+		<widget source="parent.ServiceEvent" render="Picon" isFrontDisplayPicon="1" position="0,0" size="160,100" transparent="1" halign="center" valign="center" alphatest="blend" >
+			<convert type="ServiceName">Reference</convert>
 		</widget>
 		<widget source="parent.ServiceEvent" render="Label" position="0,70" size="400,90" font="Medium" halign="center" valign="center" >
 			<convert type="EventName">Name</convert>
