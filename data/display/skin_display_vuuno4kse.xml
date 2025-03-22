@@ -59,7 +59,7 @@
 		<widget source="SetupValue" render="Label" position="0,200" size="400,70" font="Medium" halign="center" valign="center" />
 	</screen>
 	<screen name="InfoBarSummary" position="fill">
-			<widget source="session.CurrentService" render="Label" position="160,5" size="240,45" font="Medium" halign="center" valign="center" foregroundColor="yellow" >
+			<widget source="session.CurrentService" render="Label" position="160,5" size="240,100" font="Medium" halign="left" valign="center" foregroundColor="yellow" >
 				<convert type="ServiceName">Name</convert>
 			</widget>
 			<widget source="session.Event_Now" render="Label" position="0,150" size="400,40" font="Small" halign="center" valign="center" >
@@ -97,7 +97,7 @@
 		<widget source="session.RecordState" render="FixedLabel" text="&#174;" position="8,185" foregroundColor="#ff0000" size="36,42" font="FdLcD;46" halign="left" valign="center" zPosition="22">
 			<convert type="ConditionalShowHide"></convert>
 		</widget>
-		<widget source="global.CurrentTime" render="Label" position="115,75" size="160,72"  halign="center" valign="center"  font="FdLcD;50" foregroundColor="lightcyan" >
+		<widget source="global.CurrentTime" render="Label" position="115,85" size="160,72"  halign="center" valign="center" transparent="1" font="FdLcD;50" foregroundColor="lightcyan" >
 			<convert type="ClockToText">Default</convert>
 		</widget>
 	</screen>
