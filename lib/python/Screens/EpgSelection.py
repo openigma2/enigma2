@@ -53,7 +53,7 @@ class EPGSelection(Screen, HelpableScreen):
 		if isinstance(service, str) and eventid is not None:
 			self.type = EPG_TYPE_SIMILAR
 			self.setTitle(_("Similar EPG"))
-			self["key_yellow"] = StaticText(_("Partial"))
+			self["key_yellow"] = StaticText()
 			self["key_blue"] = StaticText()
 			self.currentService = service
 			self.eventid = eventid

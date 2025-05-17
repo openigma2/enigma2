@@ -60,7 +60,7 @@ class EventViewBase:
 				"nextEvent": self.nextEvent,
 				"timerAdd": self.timerAdd,
 				"openSimilarList": self.openSimilarList,
-				"openPartialList": self.open_partial_list,
+				# "openPartialList": self.open_partial_list,
 				"contextMenu": self.doContext,
 			}, 1)
 		if parent and hasattr(parent, "fallbackTimer"):

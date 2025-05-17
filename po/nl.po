@@ -392,7 +392,7 @@ msgid "(activated +%d min)"
 msgstr "(geactiveerd +%d min)"
 
 msgid "(current image)"
-msgstr "(huidige image)"
+msgstr "(huidig image)"
 
 msgid "(empty)"
 msgstr "(leeg)"
@@ -400,9 +400,8 @@ msgstr "(leeg)"
 msgid "(not activated)"
 msgstr "(gedéactiveerd)"
 
-#, fuzzy
 msgid "(old model)"
-msgstr "3d modus"
+msgstr "(oud model)"
 
 msgid "(show optional DVD audio menu)"
 msgstr "(optioneel DVD audio menu weergeven)"
@@ -653,7 +652,7 @@ msgid "AAC transcoding"
 msgstr "AAC transcoding"
 
 msgid "AAC+ downmix"
-msgstr "AAC downmix"
+msgstr "AAC+ downmix"
 
 msgid "ABOUT"
 msgstr "About"
@@ -707,7 +706,7 @@ msgid "About"
 msgstr "Uw ontvanger"
 
 msgid "Access point:"
-msgstr "Access point:"
+msgstr "Toegangspunt:"
 
 msgid "Activate HbbTV (Redbutton)"
 msgstr "Activeer HBBTV (Rode toets)"
@@ -1142,7 +1141,7 @@ msgstr "Audio PID"
 
 #, python-format
 msgid "Audio PID%s, codec & lang"
-msgstr "Audio PID%s, codec & lang"
+msgstr "Audio PID%s, codec & taal"
 
 msgid "Audio Selection Actions"
 msgstr "Audio selectie actie(s)"
@@ -1387,7 +1386,7 @@ msgid "Belarus"
 msgstr "Belarus"
 
 msgid "Belgian"
-msgstr "Vlaams"
+msgstr "Belgisch"
 
 msgid "Belgium"
 msgstr "België"
@@ -1432,7 +1431,7 @@ msgid "Blue button function"
 msgstr "Functie van de blauwe toets"
 
 msgid "Bolivia (Plurinational State of)"
-msgstr "Bolivia"
+msgstr "Bolivia (Plurinationale Staat Bolivia)"
 
 msgid "Bonaire, Sint Eustatius and Saba"
 msgstr "Bonaire, Sint Eustatius en Saba"
@@ -1441,10 +1440,10 @@ msgid "Bookmarks"
 msgstr "Markeerpunten"
 
 msgid "Boost blue"
-msgstr "Blauw"
+msgstr "Versterk blauw"
 
 msgid "Boost green"
-msgstr "Groen"
+msgstr "Versterk groen"
 
 msgid "Boot to Android image"
 msgstr "Start op met Android"
@@ -1454,32 +1453,31 @@ msgid "Boot to Recovery image - slot0 %s"
 msgstr "Herstart naar de Recovery-image - slot0 %s"
 
 msgid "Boot to Recovery menu"
-msgstr "Start op met het recovery menu"
+msgstr "Start op met het Recovery menu"
 
 msgid "Bootup time"
 msgstr "Opstarttijd"
 
 msgid "Bosnia and Herzegovina"
-msgstr "Bosnië Herzegovina"
+msgstr "Bosnië en Herzegovina"
 
 msgid "Botswana"
 msgstr "Botswana"
 
 msgid "Bottom"
-msgstr "Onder"
+msgstr "Onderkant"
 
-#, fuzzy
 msgid "Bouquet down"
-msgstr "Volume -"
+msgstr "Boeket omlaag"
 
 msgid "Bouquet up"
-msgstr ""
+msgstr "Boeket omhoog"
 
 msgid "Bouvet Island"
 msgstr "Bouvet eilanden"
 
 msgid "Brazil"
-msgstr "Brasilië"
+msgstr "Brazilië"
 
 msgid "Brief help information for buttons in your current context."
 msgstr "Korte hulpinfo voor knoppen in je huidige context."
@@ -1744,9 +1742,8 @@ msgstr "Wijzig stapgrootte"
 msgid "Change timer"
 msgstr "Wijzig timer"
 
-#, fuzzy
 msgid "Change view mode"
-msgstr "Wijzig timer"
+msgstr "Wijzig view modus"
 
 msgid "Channel"
 msgstr "Kanaal"
@@ -1757,7 +1754,6 @@ msgstr "Zenderinfo"
 msgid "Channel Select Base Actions"
 msgstr "Zenderkeuze basis actie(s)"
 
-#, fuzzy
 msgid "Channel Select EPG Actions"
 msgstr "Zender kies de EPG actie(s)"
 
@@ -1962,7 +1958,7 @@ msgid "Codec & lang%s"
 msgstr "Codec & Taal%s"
 
 msgid "Collapse"
-msgstr "Klap uit"
+msgstr "Samenvouwen"
 
 msgid "Collection name"
 msgstr "DVD naam"
@@ -2581,7 +2577,6 @@ msgstr "Raadpleeg het specificatie overzicht van de motor, of laat deze instelli
 msgid "Content does not fit on DVD!"
 msgstr "De inhoud past niet op deze DVD!"
 
-#, fuzzy
 msgid "Context Menu"
 msgstr "Zenderlijstmenu"
 
@@ -2801,7 +2796,7 @@ msgid "DVB CI Delay"
 msgstr "DVB CI vertraging"
 
 msgid "DVB Subtitles PID & lang"
-msgstr "DVD ondertitels PID & lang"
+msgstr "DVB ondertitels PID & taal"
 
 msgid "DVB driver version: "
 msgstr "DVB driver versie: "
@@ -2839,15 +2834,12 @@ msgstr "DVD titellijst"
 msgid "DVDPlayer"
 msgstr "DVD-speler"
 
-#, fuzzy
 msgid "DVDPlayer Actions"
 msgstr "DVD-speler actie(s)"
 
-#, fuzzy
 msgid "DVDTitle List"
 msgstr "DVD titellijst"
 
-#, fuzzy
 msgid "DVDToolbox"
 msgstr "DVD gereedschap"
 
@@ -3037,10 +3029,10 @@ msgid "Descramble sending http streams"
 msgstr "Decodeer verzonden http streams"
 
 msgid "Descramble service via streamrelay port"
-msgstr "Decodeer zender via streamrelay-poort."
+msgstr "Decodeer zender via streamrelay-poort"
 
 msgid "Descramble service via streamrelay url"
-msgstr "Decodeer de zenders via de streamrelay URL."
+msgstr "Decodeer de zenders via de streamrelay URL"
 
 msgid "Description"
 msgstr "Beschrijving"
@@ -3450,7 +3442,7 @@ msgid "ECM Info"
 msgstr "ECM info"
 
 msgid "EJECTCD"
-msgstr "WERP DE CD UIT"
+msgstr "CD UITWERPEN"
 
 msgid "END"
 msgstr "EINDE"
@@ -3868,7 +3860,6 @@ msgstr "Ethiopië"
 msgid "Event View Actions"
 msgstr "Programmaoverzichtsmenu actie(s)"
 
-#, fuzzy
 msgid "Event View EPG Actions"
 msgstr "EPG programmaoverzichtsmenu actie(s)"
 
@@ -5002,7 +4993,6 @@ msgstr "Informatiebalk zenderkeuze actie(s)"
 msgid "Infobar Cue Sheet Actions"
 msgstr "Informatiebalk filmfragmenten actie(s)"
 
-#, fuzzy
 msgid "Infobar EPG Actions"
 msgstr "Informatiebalk EPG actie(s)"
 
@@ -5287,14 +5277,12 @@ msgstr "Spring naar het laatste item in de lijst of het einde van de tekst"
 msgid "Jump to next marked position"
 msgstr "Spring naar de volgende markering"
 
-#, fuzzy
 msgid "Jump to next marker"
 msgstr "Spring naar de volgende markering"
 
 msgid "Jump to previous marked position"
 msgstr "Spring naar de vorige markering"
 
-#, fuzzy
 msgid "Jump to previous marker"
 msgstr "Spring naar de vorige markering"
 
@@ -5892,9 +5880,8 @@ msgstr "Ga één regel naar beneden"
 msgid "Move down a screen"
 msgstr "Ga één scherm naar beneden"
 
-#, fuzzy
 msgid "Move down in bouquet list"
-msgstr "Ga één regel naar beneden"
+msgstr "Verplaats omlaag"
 
 msgid "Move east"
 msgstr "Draai oost"
@@ -5950,9 +5937,8 @@ msgstr "Ga één regel naar boven"
 msgid "Move up a screen"
 msgstr "Ga één scherm naar boven."
 
-#, fuzzy
 msgid "Move up in bouquet list"
-msgstr "Bouquet bewerken stoppen"
+msgstr "Verplaats omhoog"
 
 msgid "Move west"
 msgstr "Draai west"
@@ -6045,7 +6031,7 @@ msgid "Myanmar"
 msgstr "Myanmar"
 
 msgid "N/A"
-msgstr "NVT"
+msgstr "N/A"
 
 msgid "NEXT"
 msgstr "VOLGENDE"
@@ -6062,8 +6048,8 @@ msgstr "NEE"
 msgid "NOW"
 msgstr "NU"
 
-msgid "NTP Hostname"
-msgstr "NTP Hostnaam"
+msgid "Optional local NTP server"
+msgstr "Lokale NTP server"
 
 msgid "NTSC"
 msgstr "NTSC"
@@ -6075,7 +6061,7 @@ msgid "Nameserver"
 msgstr "Nameserver"
 
 msgid "Namespace & Orbital pos."
-msgstr "Namespace & Orbital pos."
+msgstr "Namespace & Orbitale pos."
 
 msgid "Namibia"
 msgstr "Namibië"
@@ -6173,7 +6159,7 @@ msgid "Next"
 msgstr "Straks"
 
 msgid "Next Wizard"
-msgstr "Volgende Wizard"
+msgstr "Opslaan en Volgende"
 
 msgid "Next day starts at"
 msgstr "Dag start om"
@@ -6185,7 +6171,7 @@ msgid "Niger"
 msgstr "Niger"
 
 msgid "Nigeria"
-msgstr "Nigerië"
+msgstr "Nigeria"
 
 msgid "Niue"
 msgstr "Niuē"
@@ -6362,7 +6348,7 @@ msgid "Normal"
 msgstr "Normaal"
 
 msgid "Normal mode"
-msgstr "Normale mode"
+msgstr "Normale modus"
 
 msgid "North"
 msgstr "Noord"
@@ -6386,7 +6372,7 @@ msgid "Not associated"
 msgstr "Geen verband"
 
 msgid "Not defined"
-msgstr "Niet vastgelegd"
+msgstr "Niet gedefinieerd"
 
 #, python-format
 msgid "Not enough disk space. Please free up some disk space and try again. (%(req)d MB required, %(avail)d MB available)"
@@ -6553,7 +6539,7 @@ msgid "Options disable timer"
 msgstr "Opties m.b.t. déactiveren timer"
 
 msgid "Orbital position"
-msgstr "Orbit positie"
+msgstr "Orbitale positie"
 
 msgid "Order by modes"
 msgstr "Sorteer door modus"
@@ -6577,7 +6563,7 @@ msgid "Other Images"
 msgstr "Andere image"
 
 msgid "Other Subtitles & lang"
-msgstr "Andere Ondertitels & lang"
+msgstr "Andere Ondertitels & taal"
 
 msgid "Other buttons will jump to the help for that button, if there is help."
 msgstr "Andere knoppen springen naar de hulp voor die specifieke knop, indien er hulp voor is."
@@ -6598,10 +6584,10 @@ msgid "Overwrite configuration files?"
 msgstr "Configuratie bestanden overschrijven?"
 
 msgid "PAGEDOWN"
-msgstr "PAGINA NAAR BENEDEN"
+msgstr "PAGINA OMLAAG"
 
 msgid "PAGEUP"
-msgstr "PAGINA NAAR BOVEN"
+msgstr "PAGINA OMHOOG"
 
 msgid "PAL"
 msgstr "PAL"
@@ -6649,7 +6635,7 @@ msgid "PMT PID"
 msgstr "PMT PID"
 
 msgid "PORTAL"
-msgstr "PORTAL"
+msgstr "PORTAAL"
 
 msgid "POWER"
 msgstr "POWER"
@@ -6679,15 +6665,13 @@ msgid "Packet management"
 msgstr "Pakketbeheer"
 
 msgid "Packet manager"
-msgstr "Pakketbeheer"
+msgstr "Pakketbeheerder"
 
-#, fuzzy
 msgid "Page down"
-msgstr "Zap naar beneden"
+msgstr "Pagina omlaag"
 
-#, fuzzy
 msgid "Page up"
-msgstr "Gebruikersinstellingen"
+msgstr "Pagina omhoog"
 
 msgid "Pakistan"
 msgstr "Pakistan"
@@ -6777,7 +6761,6 @@ msgstr "Philippijnen"
 msgid "PiP setup"
 msgstr "PIP instellingen"
 
-#, fuzzy
 msgid "PiPSetup Actions"
 msgstr "PIP setup actie(s)"
 
@@ -7107,6 +7090,9 @@ msgstr "Plugins zoekmenu"
 
 msgid "Plugin browser"
 msgstr "Plugin browser"
+
+msgid "Plugin Browser Style (Need Restart GUI)"
+msgstr "Plugin Browser Stijl (GUI herstarten nodig)"
 
 msgid "Plugin manager activity information"
 msgstr "Pluginmanager achtergrondinformatie"
@@ -7468,10 +7454,10 @@ msgid "Python frontend for /tmp/mmi.socket"
 msgstr "Python frontend voor /tmp/mmi.socket"
 
 msgid "Python version: "
-msgstr "Pythonversie: "
+msgstr "Python-versie: "
 
 msgid "Pythonscript"
-msgstr "Pythonscript"
+msgstr "Python-script"
 
 msgid "Qatar"
 msgstr "Qatar"
@@ -7512,9 +7498,8 @@ msgstr "RECHTS"
 msgid "Radio"
 msgstr "Radio"
 
-#, fuzzy
 msgid "Radio mode"
-msgstr "3d modus"
+msgstr "Radio modus"
 
 msgid "Ram disk"
 msgstr "Ramdisk"
@@ -8273,9 +8258,8 @@ msgstr "Zoeken"
 msgid "Search east"
 msgstr "Zoek oost"
 
-#, fuzzy
 msgid "Search in SMS mode"
-msgstr "Zenders titel mode"
+msgstr "Zoeken in SMS modus"
 
 msgid "Search west"
 msgstr "Zoek west"
@@ -8373,9 +8357,8 @@ msgstr "Kies 'ja' om %s band te voegen aan uw scan."
 msgid "Select 'yes' to only send the DiSEqC command when changing from one satellite to another, or select 'no' for the DiSEqC command to be resent on every zap."
 msgstr "Selecteer ‘ja’ om enkel een DiSEqC signaal te versturen bij het wisselen van satelliet, of kies voor ‘nee’ om het DiSEqC commando te versturen bij iedere keer dat u zapt."
 
-#, fuzzy
 msgid "Select Audio"
-msgstr "Selecteer CAId"
+msgstr "Selecteer Audio"
 
 msgid "Select CAId"
 msgstr "Selecteer CAId"
@@ -8514,7 +8497,6 @@ msgstr "Selecteer herhalingsfrequentie"
 msgid "Select satellites"
 msgstr "Kies de satellieten"
 
-#, fuzzy
 msgid "Select service"
 msgstr "Kies een zender"
 
@@ -8954,7 +8936,6 @@ msgstr "Snelkoppeling actie(s)"
 msgid "Show"
 msgstr "Toon menu-item"
 
-#, fuzzy
 msgid "Show All Services"
 msgstr "Toon de zenderlijst"
 
@@ -8973,7 +8954,6 @@ msgstr "Toon de EPG van de huidige zender"
 msgid "Show EPG..."
 msgstr "Toon de EPG..."
 
-#, fuzzy
 msgid "Show Favorites"
 msgstr "Toon de favorietenlijsten"
 
@@ -8983,11 +8963,9 @@ msgstr "Toon de informatiebalk"
 msgid "Show PiP"
 msgstr "Toon de PIP"
 
-#, fuzzy
 msgid "Show Providers"
-msgstr "Toon de films"
+msgstr "Toon Providers"
 
-#, fuzzy
 msgid "Show Satellites"
 msgstr "Toon de lijst van satellieten"
 
@@ -9917,6 +9895,9 @@ msgstr "Zweeds"
 msgid "Switch"
 msgstr "Switch"
 
+msgid "Switch off HDMI-IN mode"
+msgstr "HDMI-IN-modus uitschakelen"
+
 msgid "Switch TV to correct input"
 msgstr "Schakel de TV naar de juiste ingang"
 
@@ -9952,6 +9933,9 @@ msgstr "Ga naar markeerpunten"
 
 msgid "Switch to filelist"
 msgstr "Ga naar de bestandenlijst"
+
+msgid "Switch to HDMI-IN mode"
+msgstr "HDMI-IN-modus inschakelen"
 
 msgid "Switch to next bouquet"
 msgstr "Schakel naar het volgende bouquet"
@@ -10050,9 +10034,8 @@ msgstr "AFSTEMMEN"
 msgid "TV"
 msgstr "TV"
 
-#, fuzzy
 msgid "TV mode"
-msgstr "Test modus"
+msgstr "TV modus"
 
 msgid "TV physical address report"
 msgstr "TV fysiek adres overzicht"
@@ -10061,7 +10044,7 @@ msgid "TXT PID"
 msgstr "TXT PID"
 
 msgid "TXT Subtitles page & lang"
-msgstr "TXT Ondertitels page & lang"
+msgstr "TXT Ondertitels page & taal"
 
 msgid "Table of contents for collection"
 msgstr "Inhoudsoverzicht voor de verzameling"
@@ -10198,7 +10181,7 @@ msgstr ""
 msgid "The following files were found..."
 msgstr "De volgende bestanden werden gevonden..."
 
-msgid "The hostname or the IP address of the NTP server to synchronise the time with."
+msgid "The hostname or the IP address of a local NTP server to synchronise the time with."
 msgstr "De hostnaam of ip adres van de NTP server waarmee de tijd gesynchroniseerd wordt."
 
 msgid ""
@@ -10211,9 +10194,8 @@ msgstr ""
 msgid "The number of steps to change the volume on the device the keys are forwarded to."
 msgstr "Het aantal stappen waarmee het volume wijzigt op het apparaat waarnaar de toetsen worden doorgestuurd."
 
-#, fuzzy
 msgid "The order and grouping of the help information list can be controlled using MENU>Setup>User Interface>Settings>Sort order for help screen or pressing long help"
-msgstr "De volgorde en indeling van de hulp-informatielijst kan gewijzigd worden via MENU - Instellen - Gebruikersinterface -Instellen - Sorteervolgorde voor het hulpscherm."
+msgstr "De volgorde en groepering van de lijst met helpinformatie kan beheerd worden via MENU>Instellingen>Gebruikersinterface>Instellingen>Sorteervolgorde voor helpscherm of door lang op help te drukken."
 
 msgid ""
 "The overscan wizard has been completed.\n"
@@ -10455,6 +10437,9 @@ msgstr "Deze optie maakt het mogelijk om menu items te verbergen of te sorteren.
 msgid "This option allows you to power off the display."
 msgstr "Indien geactiveerd schakelt u het display in tijdens normaal bedrijf."
 
+msgid "This option allows you to select the plugin browser style (Need Restart GUI)."
+msgstr "Met deze optie kan je de Plugin Browser weergave selecteren. Als lijst of als raster weergeven (GUI herstarten nodig)."
+
 msgid "This option allows you to show all symbols on the display."
 msgstr "Met deze optie kunnen alle symbolen op het display getoond worden."
 
@@ -10602,7 +10587,7 @@ msgid "Thu"
 msgstr "Do"
 
 msgid "Thumbnails"
-msgstr "Voorbeelden"
+msgstr "Miniaturen"
 
 msgid "Thursday"
 msgstr "Donderdag"
@@ -10730,7 +10715,6 @@ msgstr "Activeer Live TV op het LCD display"
 msgid "Toggle PiPzap"
 msgstr "Activeer PIPzap"
 
-#, fuzzy
 msgid "Toggle TV Radio mode"
 msgstr "Schakel tussen TV/RADIO"
 
@@ -10746,9 +10730,8 @@ msgstr "Activeer de optie 'verberg de stippellijn' voor dit kanaal"
 msgid "Toggle infoBar"
 msgstr "Activeer de informatiebalk"
 
-#, fuzzy
 msgid "Toggle movemode"
-msgstr "Schakel tussen de videomode"
+msgstr "Activeer verplaatsmodus"
 
 msgid "Toggle new text inserts before or overwrites existing text"
 msgstr "Schakel nieuwe invoegingen in of overschrijf de bestaande tekst"
@@ -11194,10 +11177,10 @@ msgid "Use original teletext position"
 msgstr "Originele teletextpositie gebruiken"
 
 msgid "Use power measurement"
-msgstr "Meet stroomopname"
+msgstr "Gebruik vermogensmeting"
 
 msgid "Use skin default"
-msgstr "Gebruik conform de skin"
+msgstr "Gebruik standaard skin"
 
 msgid "Use the alternative screen"
 msgstr "Gebruik het alternatieve scherm"
@@ -11650,7 +11633,7 @@ msgid "When enabled a simplified version from the second infobar is shown. This 
 msgstr "Indien geactiveerd. dan wordt een vereenvoudigde versie van de 2e informatiebalk getoond. Dit kan ook direct worden omgeschakeld door OK ingedrukt te houden terwijl de 2e informatiebalk zichtbaar is. De informatiebalk verdwijnt dan even en wordt dan in de alternatieve modus getoond."
 
 msgid "When enabled enigma2 will load unlinked userbouquets. This means that userbouquets that are available, but not included in the bouquets.tv or bouquets.radio files, will still be loaded. This allows you for example to keep your own user bouquet while installed settings are updated"
-msgstr "Indien geactiveerd, dan zal Enigma de niet gelinkte zenderbouquetten laden. Dit houdt in, dat aanwezige gebruikerslijsten die niet aanwezig zijn in bouquets.tv of bouquets.radio alsnog geladen worden. Hiermee kunt u uw eigen wijzigingen in de zenderlijst behouden ondanks een mogelijke update van deze lijst. "
+msgstr "Indien geactiveerd, dan zal Enigma de niet gelinkte zenderbouquetten laden. Dit houdt in, dat aanwezige gebruikerslijsten die niet aanwezig zijn in bouquets.tv of bouquets.radio alsnog geladen worden. Hiermee kunt u uw eigen wijzigingen in de zenderlijst behouden ondanks een mogelijke update van deze lijst."
 
 msgid "When enabled extra information is shown on the infobar. This can also be toggled instantly by holding the OK button when the inforbar is not visible."
 msgstr "Indien geactiveerd, dan, wordt er extra informatie weergegeven op de informatiebalk. Dit kan ook direct worden ingeschakeld door OK ingedrukt te houden wanneer de infobalk niet zichtbaar is."
@@ -11999,7 +11982,7 @@ msgid "Yellow button function"
 msgstr "Functie van de gele toets"
 
 msgid "Yemen"
-msgstr "Yemen"
+msgstr "Jemen"
 
 msgid "Yes"
 msgstr "Ja"
@@ -12083,7 +12066,7 @@ msgstr "U kunt de gekozen directory instellen als 'root' directory voor de movie
 msgid "You can set sorting type for items in movielist."
 msgstr "U kunt aangeven hoe u een filmoverzicht wilt sorteren."
 
-#, fuzzy, python-format
+#, python-format
 msgid "You can't update the software because %s can not be reached."
 msgstr "De status van de huidige image kan niet worden bepaald omdat %s niet te bereiken is."
 
@@ -12257,7 +12240,7 @@ msgid "Zap bouquets blindly on zap buttons"
 msgstr "Zap bouquetten blindelings met de zap toetsen"
 
 msgid "Zap down"
-msgstr "Zap naar beneden"
+msgstr "Zap omlaag"
 
 msgid "Zap focus to Picture in Picture"
 msgstr "Zappen in PIP scherm"
@@ -12271,9 +12254,8 @@ msgstr "Zapmodus"
 msgid "Zap to"
 msgstr "Zap naar"
 
-#, fuzzy
 msgid "Zap to channel number"
-msgstr "Spring via nummer naar hoofdstuk"
+msgstr "Zap naar zendernummer"
 
 msgid "Zap to selected channel"
 msgstr "Ga naar het geselecteerde kanaal"
@@ -12945,7 +12927,7 @@ msgid "original"
 msgstr "Origineel"
 
 msgid "pass"
-msgstr "passage"
+msgstr "overslaan"
 
 msgid "pausing"
 msgstr "gepauseerd"
@@ -12984,7 +12966,7 @@ msgid "recording..."
 msgstr "opnemen..."
 
 msgid "red"
-msgstr "rood"
+msgstr "Rood"
 
 msgid "religion"
 msgstr "Religie"
@@ -13272,7 +13254,7 @@ msgid "vertical"
 msgstr "verticaal"
 
 msgid "violet"
-msgstr "paars"
+msgstr "Paars"
 
 msgid "wait for ci..."
 msgstr "wacht op CI..."
@@ -13338,10 +13320,10 @@ msgid "yes"
 msgstr "Ja"
 
 msgid "yes (keep feeds)"
-msgstr "ja (bewaar feeds)"
+msgstr "Ja (bewaar feeds)"
 
 msgid "yes, but not in multi selections"
-msgstr "ja, maar niet in de meervoudige selectie"
+msgstr "Ja, maar niet in de meervoudige selectie"
 
 msgid "zap"
 msgstr "Zap naar zender X"

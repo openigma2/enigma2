@@ -5,10 +5,7 @@ class VariableValue:
 		self.__value = 0
 
 	def setValue(self, value):
-		try:
-			self.__value = int(value)
-		except:
-			self.__value = 0
+		self.__value = min(int(value), 2**31 - 1)  # do not exceed c++ 32-bit signed integer or OverflowError will occur
 		if self.instance:
 			self.instance.setValue(self.__value)
 
