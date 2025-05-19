@@ -655,7 +655,7 @@ msgid "AAC+ downmix"
 msgstr "AAC+ downmix"
 
 msgid "ABOUT"
-msgstr "About"
+msgstr "OVER"
 
 msgid "AC3"
 msgstr "AC3"
@@ -709,7 +709,7 @@ msgid "Access point:"
 msgstr "Toegangspunt:"
 
 msgid "Activate HbbTV (Redbutton)"
-msgstr "Activeer HBBTV (Rode toets)"
+msgstr "Activeer HbbTV (Rode toets)"
 
 msgid "Activate Picture in Picture"
 msgstr "Activeer Picture In Picture"
@@ -1271,7 +1271,7 @@ msgid "Available locales are:"
 msgstr "Beschikbare talen:"
 
 msgid "Azerbaijan"
-msgstr "Azerbaijan"
+msgstr "Azerbeidzjan"
 
 msgid "B"
 msgstr "B"
@@ -1474,7 +1474,7 @@ msgid "Bouquet up"
 msgstr "Boeket omhoog"
 
 msgid "Bouvet Island"
-msgstr "Bouvet eilanden"
+msgstr "Bouveteiland"
 
 msgid "Brazil"
 msgstr "Brazilië"
@@ -1486,7 +1486,7 @@ msgid "Brightness"
 msgstr "Helderheid display indien actief"
 
 msgid "British Indian Ocean Territory"
-msgstr "Brits deel Indische oceaan"
+msgstr "Brits Indische Oceaanterritorium"
 
 msgid "Brunei Darussalam"
 msgstr "Brunei Darussalam"
@@ -1710,7 +1710,7 @@ msgid "Center time-labels and remove date"
 msgstr "Centreer de tijds-labels en verwijder de datum"
 
 msgid "Central African Republic"
-msgstr "Centraal Afrikaanse republiek"
+msgstr "Centraal Afrikaanse Republiek"
 
 msgid "Chad"
 msgstr "Tsjaad"
