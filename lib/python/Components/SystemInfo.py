@@ -228,8 +228,6 @@ def setBoxInfoItems():
 	BoxInfo.setItem("HasOfflineDecoding", model not in ("osmini", "osminiplus", "et7000mini", "et11000", "mbmicro", "mbtwinplus", "mbmicrov2", "et7000", "et8500"))
 	BoxInfo.setItem("hasKexec", fileHas("/proc/cmdline", "kexec=1"))
 	BoxInfo.setItem("canKexec", not BoxInfo.getItem("hasKexec") and fileExists("/usr/bin/kernel_auto.bin") and fileExists("/usr/bin/STARTUP.cpio.gz") and (model in ("vuduo4k", "vuduo4kse") and ["mmcblk0p9", "mmcblk0p6"] or model in ("vusolo4k", "vuultimo4k", "vuuno4k", "vuuno4kse") and ["mmcblk0p4", "mmcblk0p1"] or model == "vuzero4k" and ["mmcblk0p7", "mmcblk0p4"]))
-	BoxInfo.setItem("HasChkrootMultiboot", MultiBoot.isFat32("/dev/block/by-name/others") or fileExists("/dev/block/by-name/startup"))
-	BoxInfo.setItem("canchkroot", fileExists("/dev/block/by-name/others") and not BoxInfo.getItem("HasChkrootMultiboot") and not fileExists("/etc/.disableChkroot"))
 	BoxInfo.setItem("MultibootStartupDevice", getMultibootStartupDevice())
 	BoxInfo.setItem("canMode12", "%s_4.boxmode" % model in cmdline and cmdline["%s_4.boxmode" % model] in ("1", "12") and "192M")
 	BoxInfo.setItem("canMultiBoot", getMultibootslots())
